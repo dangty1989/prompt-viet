@@ -209,53 +209,61 @@ export default function SupportPageClient() {
                       <div className="bg-card rounded-xl border border-border p-6">
                         <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
                           <Github className="w-5 h-5" />
-                          Đóng góp theo cách khác
-                        </h3>
-                        <ul className="space-y-3 text-muted-foreground">
-                          <li className="flex items-start gap-3">
-                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                            <div>
-                              <p className="font-medium text-foreground">Chia sẻ cho bạn bè, đồng nghiệp</p>
-                              <p className="text-sm">Gửi link trang web, embed prompt vào bài viết, video</p>
-                            </div>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                            <div>
-                              <p className="font-medium text-foreground">Góp ý prompt mới</p>
-                              <p className="text-sm">
-                                {siteLinks.githubIssues ? (
-                                  <>
-                                    Tạo <a href={siteLinks.githubIssues} target="_blank" rel="noopener noreferrer" className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline">GitHub Issue</a> hoặc Pull Request
-                                  </>
-                                ) : (
-                                  "Gửi góp ý qua biểu mẫu khảo sát hoặc liên hệ trực tiếp"
-                                )}
-                              </p>
-                            </div>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                            <div>
-                              <p className="font-medium text-foreground">Báo lỗi, đề xuất tính năng</p>
-                              <p className="text-sm">Mở issue trên GitHub, mình đọc hết</p>
-                            </div>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                            <div>
-                              <p className="font-medium text-foreground">Viết bài review, giới thiệu</p>
-                              <p className="text-sm">Trên blog, LinkedIn, Facebook, YouTube cá nhân</p>
-                            </div>
-                          </li>
-                          <li className="flex items-start gap-3">
-                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                            <div>
-                              <p className="font-medium text-foreground">Đóng góp mã nguồn</p>
-                              <p className="text-sm">Next.js, Tailwind, TypeScript - mọi PR đều hoan nghênh</p>
-                            </div>
-                          </li>
-                        </ul>
+                                                  Đóng góp theo cách khác
+                                                </h3>
+                                                <ul className="space-y-3 text-muted-foreground">
+                                                  <li className="flex items-start gap-3">
+                                                    <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                                                    <div>
+                                                      <p className="font-medium text-foreground">Chia sẻ cho bạn bè, đồng nghiệp</p>
+                                                      <p className="text-sm">Gửi link trang web, embed prompt vào bài viết, video</p>
+                                                    </div>
+                                                  </li>
+                                                  <li className="flex items-start gap-3">
+                                                    <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                                                    <div>
+                                                      <p className="font-medium text-foreground">Góp ý prompt mới</p>
+                                                      <p className="text-sm">
+                                                        {siteLinks.githubIssues ? (
+                                                          <>
+                                                            Tạo <a href={siteLinks.githubIssues} target="_blank" rel="noopener noreferrer" className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline">GitHub Issue</a> hoặc Pull Request
+                                                          </>
+                                                        ) : (
+                                                          "Gửi góp ý qua biểu mẫu khảo sát hoặc liên hệ trực tiếp"
+                                                        )}
+                                                      </p>
+                                                    </div>
+                                                  </li>
+                                                  <li className="flex items-start gap-3">
+                                                    <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                                                    <div>
+                                                      <p className="font-medium text-foreground">Báo lỗi, đề xuất tính năng</p>
+                                                      <p className="text-sm">Mở issue trên GitHub, mình đọc hết</p>
+                                                    </div>
+                                                  </li>
+                                                  <li className="flex items-start gap-3">
+                                                    <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                                                    <div>
+                                                      <p className="font-medium text-foreground">Viết bài review, giới thiệu</p>
+                                                      <p className="text-sm">Trên blog, LinkedIn, Facebook, YouTube cá nhân</p>
+                                                    </div>
+                                                  </li>
+                                                  <li className="flex items-start gap-3">
+                                                    <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                                                    <div>
+                                                      <p className="font-medium text-foreground">Đóng góp mã nguồn</p>
+                                                      <p className="text-sm">Next.js, Tailwind, TypeScript - mọi PR đều hoan nghênh</p>
+                                                    </div>
+                                                  </li>
+                                                </ul>
+                                                {siteLinks.githubRepo && (
+                                                  <div className="mt-6 pt-6 border-t border-border">
+                                                    <p className="text-sm text-muted-foreground flex items-center gap-2">
+                                                      <Github className="w-4 h-4" />
+                                                      Mã nguồn mở tại <a href={siteLinks.githubRepo} target="_blank" rel="noopener noreferrer" className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline font-medium">GitHub</a>
+                                                    </p>
+                                                  </div>
+                                                )}
                       </div>
                     </div>
 
@@ -276,10 +284,10 @@ export default function SupportPageClient() {
                         Danh sách những người đã đóng góp cho Prompt Việt. Cảm ơn mọi người!
                       </p>
                       <div className="flex flex-wrap gap-2">
-                        <span className="px-3 py-1 bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 rounded-full text-sm">
-                          Bạn có thể là người đầu tiên!
-                        </span>
-                      </div>
+                                              <span className="px-3 py-1 bg-emerald-100 text-emerald-800 border border-emerald-200 dark:bg-emerald-900/40 dark:text-emerald-300 rounded-full text-sm">
+                                                Bạn có thể là người đầu tiên!
+                                              </span>
+                                            </div>
                       {donateLinks.githubSponsors && (
                         <p className="mt-4 text-sm text-muted-foreground">
                           Mọi đóng góp tài chính đều được công khai minh bạch tại{" "}

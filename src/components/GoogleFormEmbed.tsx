@@ -51,8 +51,8 @@ export function GoogleFormEmbed({
             <HelpCircle className="w-6 h-6 text-blue-600 dark:text-blue-400" />
           </div>
           <div className="flex-1">
-            <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-2">{title}</h3>
-            <p className="text-blue-700 dark:text-blue-300 text-sm mb-6">{description}</p>
+            <h3 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">{title}</h3>
+            <p className="text-slate-700 dark:text-slate-300 text-sm mb-6">{description}</p>
             <button
               onClick={() => setShowForm(true)}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"

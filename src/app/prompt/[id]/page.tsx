@@ -8,6 +8,7 @@ import { SurveyEmbed } from "@/components/SurveyEmbed";
 import { ContactInfo } from "@/components/ContactInfo";
 import { cn } from "@/lib/utils";
 import { CopyPromptButton } from "@/components/CopyPromptButton";
+import { siteLinks } from "@/config/site";
 
 const platformIcons = {
   ChatGPT: MessageSquare,
@@ -72,22 +73,34 @@ export default async function PromptDetailPage({ params }: PageProps) {
       <header className="prompt-detail-header sticky top-0 z-50 bg-[rgb(var(--color-background))] dark:bg-[rgb(var(--color-background))] border-b border-[rgb(var(--color-border))]">
         <div className="prompt-detail-container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center justify-between h-16" aria-label="Breadcrumb">
-            <Link
-              href="/"
-              className="flex items-center gap-2 text-[rgb(var(--color-muted-foreground))] hover:text-[rgb(var(--color-foreground))] dark:hover:text-[rgb(var(--color-foreground))] text-sm font-medium transition-colors"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              Trang chủ
-            </Link>
-            <div className="flex items-center gap-2">
-              <Link
-                href="/support"
-                className="text-sm text-[rgb(var(--color-muted-foreground))] hover:text-[rgb(var(--color-foreground))] dark:hover:text-[rgb(var(--color-foreground))] transition-colors"
-              >
-                Ủng hộ
-              </Link>
-            </div>
-          </nav>
+                      <Link
+                        href="/"
+                        className="flex items-center gap-2 text-[rgb(var(--color-muted-foreground))] hover:text-[rgb(var(--color-foreground))] dark:hover:text-[rgb(var(--color-foreground))] text-sm font-medium transition-colors"
+                      >
+                        <ArrowLeft className="w-4 h-4" />
+                        Trang chủ
+                      </Link>
+                      <div className="flex items-center gap-2">
+                        <Link
+                          href="/support"
+                          className="text-sm text-[rgb(var(--color-muted-foreground))] hover:text-[rgb(var(--color-foreground))] dark:hover:text-[rgb(var(--color-foreground))] transition-colors"
+                        >
+                          Ủng hộ
+                        </Link>
+                        {siteLinks.githubRepo && (
+                          <a
+                            href={siteLinks.githubRepo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-1 text-sm text-[rgb(var(--color-muted-foreground))] hover:text-[rgb(var(--color-foreground))] dark:hover:text-[rgb(var(--color-foreground))] transition-colors"
+                            aria-label="Xem mã nguồn trên GitHub"
+                          >
+                            <Github className="w-4 h-4" />
+                            <span className="hidden sm:inline">Mã nguồn</span>
+                          </a>
+                        )}
+                      </div>
+                    </nav>
         </div>
       </header>
 
