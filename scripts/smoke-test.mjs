@@ -1,7 +1,7 @@
-// Smoke test bản static export: trang chủ, phân trang, lọc danh mục, detail page ngách, dark mode.
+// Smoke test bản static export: trang chủ, phân trang, lọc danh mục, detail page ngách, dark mode, support page.
 import { chromium } from "playwright";
 
-const BASE = "http://127.0.0.1:4182/";
+const BASE = "http://127.0.0.1:4183/";
 const b = await chromium.launch();
 const fails = [];
 const ok = (cond, msg, extra = "") => {
@@ -73,6 +73,40 @@ const cardSel = "#prompt-grid a[href^='/prompt/']";
     els.map((e) => e.textContent?.trim() || e.getAttribute("aria-label") || "")
   );
   ok(blogLinks.length >= 2, "có link Blog tyauto.name.vn (navbar + footer)", JSON.stringify(blogLinks));
+  await p.close();
+}
+
+// ---------- Support page ----------
+{
+  const p = await b.newPage({ viewport: { width: 1440, height: 950 } });
+  await p.goto(BASE + "support/", { waitUntil: "networkidle" });
+  await p.waitForTimeout(400);
+  
+  // Hero
+  const h1 = (await p.textContent("h1"))?.trim();
+  ok(h1 && h1.includes("Ủng hộ"), "support page hero h1", h1);
+  
+  // Panel "Thông tin chuyển khoản" - check 4 lines
+  const bankName = await p.textContent("text=Ngân hàng >> xpath=//following-sibling::div/code");
+  ok(bankName?.includes("Sacombank"), "panel: Ngân hàng = Sacombank", bankName);
+  
+  const accNum = await p.textContent("text=Số tài khoản >> xpath=//following-sibling::div/code");
+  ok(accNum?.includes("0501 1897 2306"), "panel: Số TK = 0501 1897 2306", accNum);
+  
+  const accOwner = await p.textContent("text=Chủ tài khoản >> xpath=//following-sibling::div/code");
+  ok(accOwner?.includes("DANG DUC TY"), "panel: Chủ TK = DANG DUC TY", accOwner);
+  
+  const transferNote = await p.textContent("text=Nội dung chuyển khoản >> xpath=//following-sibling::div/code");
+  ok(transferNote?.includes("UNG HO PROMPT VIET"), "panel: Nội dung = UNG HO PROMPT VIET", transferNote);
+  
+  // Copy buttons count (4 for bank + maybe 1 for momo phone)
+  const copyBtns = await p.locator("button[aria-label*='Sao chép']").count();
+  ok(copyBtns >= 4, "có ít nhất 4 nút copy (bank name, acc, owner, note)", `count=${copyBtns}`);
+  
+  // VietQR image
+  const qrImg = await p.locator("img[src*='vietqr.io/image/970403-050118972306']").count();
+  ok(qrImg === 1, "có ảnh QR Sacombank từ VietQR");
+  
   await p.close();
 }
 
