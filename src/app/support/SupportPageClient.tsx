@@ -6,6 +6,7 @@ import { useState } from "react"
 import { cn, copyText } from "@/lib/utils"
 import { ContactInfo } from "@/components/ContactInfo"
 import { QRCodeItem } from "@/components/QRCodeItem"
+import { GoogleFormEmbed } from "@/components/GoogleFormEmbed"
 import { siteLinks } from "@/config/site"
 import {
   donateBank,
@@ -166,140 +167,148 @@ export default function SupportPageClient() {
           )}
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-            <div className="bg-card rounded-xl border border-border p-6">
-              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <QrCode className="w-5 h-5" />
-                Mã QR chuyển khoản
-              </h3>
-              {bankReady || walletReady ? (
-                <>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    {bankReady && (
-                      <QRCodeItem
-                        title={donateBank.bankName || "Chuyển khoản ngân hàng"}
-                        qrSrc={bankQrSrc()}
-                        info={bankInfoLines()}
+                      <div className="bg-card rounded-xl border border-border p-6">
+                        <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
+                          <QrCode className="w-5 h-5" />
+                          Mã QR chuyển khoản
+                        </h3>
+                        {bankReady || walletReady ? (
+                          <>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                              {bankReady && (
+                                <QRCodeItem
+                                  title={donateBank.bankName || "Chuyển khoản ngân hàng"}
+                                  qrSrc={bankQrSrc()}
+                                  info={bankInfoLines()}
+                                />
+                              )}
+                              {walletReady && (
+                                <QRCodeItem title="MoMo / ZaloPay" qrSrc={walletQrSrc()} info={walletInfoLines()} />
+                              )}
+                            </div>
+                            {donateBank.transferNote && (
+                              <div className="mt-6 p-4 bg-muted rounded-lg">
+                                <p className="text-sm text-muted-foreground">
+                                  <strong className="text-foreground">Lưu ý:</strong> Hãy thêm nội dung "
+                                  {donateBank.transferNote}" khi chuyển khoản để chúng tôi dễ theo dõi.
+                                </p>
+                              </div>
+                            )}
+                          </>
+                        ) : (
+                          <div className="flex items-start gap-3 rounded-lg border border-dashed border-border bg-muted p-4">
+                            <Info className="w-5 h-5 flex-shrink-0 text-muted-foreground" />
+                            <p className="text-sm text-muted-foreground">
+                              {donateNotice ||
+                                "Thông tin nhận ủng hộ (số tài khoản, mã QR) đang được cập nhật. Trong lúc chờ, bạn có thể đóng góp bằng cách chia sẻ hoặc góp ý prompt mới."}
+                            </p>
+                          </div>
+                        )}
+                      </div>
+
+                      <div className="bg-card rounded-xl border border-border p-6">
+                        <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
+                          <Github className="w-5 h-5" />
+                          Đóng góp theo cách khác
+                        </h3>
+                        <ul className="space-y-3 text-muted-foreground">
+                          <li className="flex items-start gap-3">
+                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                            <div>
+                              <p className="font-medium text-foreground">Chia sẻ cho bạn bè, đồng nghiệp</p>
+                              <p className="text-sm">Gửi link trang web, embed prompt vào bài viết, video</p>
+                            </div>
+                          </li>
+                          <li className="flex items-start gap-3">
+                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                            <div>
+                              <p className="font-medium text-foreground">Góp ý prompt mới</p>
+                              <p className="text-sm">
+                                {siteLinks.githubIssues ? (
+                                  <>
+                                    Tạo <a href={siteLinks.githubIssues} target="_blank" rel="noopener noreferrer" className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline">GitHub Issue</a> hoặc Pull Request
+                                  </>
+                                ) : (
+                                  "Gửi góp ý qua biểu mẫu khảo sát hoặc liên hệ trực tiếp"
+                                )}
+                              </p>
+                            </div>
+                          </li>
+                          <li className="flex items-start gap-3">
+                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                            <div>
+                              <p className="font-medium text-foreground">Báo lỗi, đề xuất tính năng</p>
+                              <p className="text-sm">Mở issue trên GitHub, mình đọc hết</p>
+                            </div>
+                          </li>
+                          <li className="flex items-start gap-3">
+                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                            <div>
+                              <p className="font-medium text-foreground">Viết bài review, giới thiệu</p>
+                              <p className="text-sm">Trên blog, LinkedIn, Facebook, YouTube cá nhân</p>
+                            </div>
+                          </li>
+                          <li className="flex items-start gap-3">
+                            <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                            <div>
+                              <p className="font-medium text-foreground">Đóng góp mã nguồn</p>
+                              <p className="text-sm">Next.js, Tailwind, TypeScript - mọi PR đều hoan nghênh</p>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className="mb-12">
+                      <GoogleFormEmbed
+                        formUrl="https://forms.gle/oyQSRfMe794JVeoRA"
+                        title="Khảo sát chất lượng Prompt Việt"
+                        description="Góp ý 2 phút giúp thư viện prompt tiếng Việt tốt hơn. Mọi phản hồi đều được đọc kỹ."
                       />
-                    )}
-                    {walletReady && (
-                      <QRCodeItem title="MoMo / ZaloPay" qrSrc={walletQrSrc()} info={walletInfoLines()} />
-                    )}
-                  </div>
-                  {donateBank.transferNote && (
-                    <div className="mt-6 p-4 bg-muted rounded-lg">
-                      <p className="text-sm text-muted-foreground">
-                        <strong className="text-foreground">Lưu ý:</strong> Hãy thêm nội dung &quot;
-                        {donateBank.transferNote}&quot; khi chuyển khoản để chúng tôi dễ theo dõi.
+                    </div>
+
+                    <div className="bg-card rounded-xl border border-border p-6 mb-8">
+                      <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
+                        <Users className="w-5 h-5" />
+                        Người ủng hộ
+                      </h3>
+                      <p className="text-muted-foreground mb-4">
+                        Danh sách những người đã đóng góp cho Prompt Việt. Cảm ơn mọi người!
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 rounded-full text-sm">
+                          Bạn có thể là người đầu tiên!
+                        </span>
+                      </div>
+                      {donateLinks.githubSponsors && (
+                        <p className="mt-4 text-sm text-muted-foreground">
+                          Mọi đóng góp tài chính đều được công khai minh bạch tại{" "}
+                          <a
+                            href={donateLinks.githubSponsors}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline"
+                          >
+                            GitHub Sponsors
+                          </a>
+                          .
+                        </p>
+                      )}
+                    </div>
+
+                    <ContactInfo variant="default" className="mb-8" />
+
+                    <div className="text-center">
+                      <p className="text-muted-foreground text-sm">
+                        Cảm ơn bạn đã đồng hành cùng Prompt Việt!
+                        <Heart className="inline w-4 h-4 text-red-500 align-middle ml-1" />
                       </p>
                     </div>
-                  )}
-                </>
-              ) : (
-                <div className="flex items-start gap-3 rounded-lg border border-dashed border-border bg-muted p-4">
-                  <Info className="w-5 h-5 flex-shrink-0 text-muted-foreground" />
-                  <p className="text-sm text-muted-foreground">
-                    {donateNotice ||
-                      "Thông tin nhận ủng hộ (số tài khoản, mã QR) đang được cập nhật. Trong lúc chờ, bạn có thể đóng góp bằng cách chia sẻ hoặc góp ý prompt mới."}
-                  </p>
-                </div>
-              )}
-            </div>
-
-            <div className="bg-card rounded-xl border border-border p-6">
-              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-                <Github className="w-5 h-5" />
-                Đóng góp theo cách khác
-              </h3>
-              <ul className="space-y-3 text-muted-foreground">
-                <li className="flex items-start gap-3">
-                  <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                  <div>
-                    <p className="font-medium text-foreground">Chia sẻ cho bạn bè, đồng nghiệp</p>
-                    <p className="text-sm">Gửi link trang web, embed prompt vào bài viết, video</p>
                   </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                  <div>
-                    <p className="font-medium text-foreground">Góp ý prompt mới</p>
-                    <p className="text-sm">
-                      {siteLinks.githubIssues ? (
-                        <>
-                          Tạo <a href={siteLinks.githubIssues} target="_blank" rel="noopener noreferrer" className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline">GitHub Issue</a> hoặc Pull Request
-                        </>
-                      ) : (
-                        "Gửi góp ý qua biểu mẫu khảo sát hoặc liên hệ trực tiếp"
-                      )}
-                    </p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                  <div>
-                    <p className="font-medium text-foreground">Báo lỗi, đề xuất tính năng</p>
-                    <p className="text-sm">Mở issue trên GitHub, mình đọc hết</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                  <div>
-                    <p className="font-medium text-foreground">Viết bài review, giới thiệu</p>
-                    <p className="text-sm">Trên blog, LinkedIn, Facebook, YouTube cá nhân</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                  <div>
-                    <p className="font-medium text-foreground">Đóng góp mã nguồn</p>
-                    <p className="text-sm">Next.js, Tailwind, TypeScript - mọi PR đều hoan nghênh</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="bg-card rounded-xl border border-border p-6 mb-8">
-            <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-              <Users className="w-5 h-5" />
-              Người ủng hộ
-            </h3>
-            <p className="text-muted-foreground mb-4">
-              Danh sách những người đã đóng góp cho Prompt Việt. Cảm ơn mọi người!
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400 rounded-full text-sm">
-                Bạn có thể là người đầu tiên!
-              </span>
-            </div>
-            {donateLinks.githubSponsors && (
-              <p className="mt-4 text-sm text-muted-foreground">
-                Mọi đóng góp tài chính đều được công khai minh bạch tại{" "}
-                <a
-                  href={donateLinks.githubSponsors}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline"
-                >
-                  GitHub Sponsors
-                </a>
-                .
-              </p>
-            )}
-          </div>
-
-          <ContactInfo variant="default" className="mb-8" />
-
-          <div className="text-center">
-            <p className="text-muted-foreground text-sm">
-              Cảm ơn bạn đã đồng hành cùng Prompt Việt!
-              <Heart className="inline w-4 h-4 text-red-500 align-middle ml-1" />
-            </p>
-          </div>
-        </div>
-      </section>
-    </main>
-  )
-}
+                </section>
+              </main>
+            )
+          }
 
 function SupportCard({
   icon: Icon,
