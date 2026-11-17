@@ -235,26 +235,42 @@ export default function SupportPageClient() {
                                                     </div>
                                                   </li>
                                                   <li className="flex items-start gap-3">
-                                                    <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                                                    <div>
-                                                      <p className="font-medium text-foreground">Báo lỗi, đề xuất tính năng</p>
-                                                      <p className="text-sm">Mở issue trên GitHub, mình đọc hết</p>
-                                                    </div>
-                                                  </li>
-                                                  <li className="flex items-start gap-3">
-                                                    <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                                                    <div>
-                                                      <p className="font-medium text-foreground">Viết bài review, giới thiệu</p>
-                                                      <p className="text-sm">Trên blog, LinkedIn, Facebook, YouTube cá nhân</p>
-                                                    </div>
-                                                  </li>
-                                                  <li className="flex items-start gap-3">
-                                                    <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
-                                                    <div>
-                                                      <p className="font-medium text-foreground">Đóng góp mã nguồn</p>
-                                                      <p className="text-sm">Next.js, Tailwind, TypeScript - mọi PR đều hoan nghênh</p>
-                                                    </div>
-                                                  </li>
+                                                                                                      <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                                                                                                      <div>
+                                                                                                        <p className="font-medium text-foreground">Báo lỗi, đề xuất tính năng</p>
+                                                                                                        <p className="text-sm">
+                                                                                                          {siteLinks.githubIssues ? (
+                                                                                                            <a href={siteLinks.githubIssues} target="_blank" rel="noopener noreferrer" className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline">
+                                                                                                              Mở issue trên GitHub
+                                                                                                            </a>
+                                                                                                          ) : (
+                                                                                                            "Mở issue trên GitHub, mình đọc hết"
+                                                                                                          )}
+                                                                                                        </p>
+                                                                                                      </div>
+                                                                                                    </li>
+                                                                                                    <li className="flex items-start gap-3">
+                                                                                                      <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                                                                                                      <div>
+                                                                                                        <p className="font-medium text-foreground">Viết bài review, giới thiệu</p>
+                                                                                                        <p className="text-sm">Trên blog, LinkedIn, Facebook, YouTube cá nhân</p>
+                                                                                                      </div>
+                                                                                                    </li>
+                                                                                                    <li className="flex items-start gap-3">
+                                                                                                      <span className="w-2 h-2 mt-2 bg-green-500 rounded-full flex-shrink-0" />
+                                                                                                      <div>
+                                                                                                        <p className="font-medium text-foreground">Đóng góp mã nguồn</p>
+                                                                                                        <p className="text-sm">
+                                                                                                          {siteLinks.githubRepo ? (
+                                                                                                            <a href={siteLinks.githubRepo} target="_blank" rel="noopener noreferrer" className="text-[rgb(var(--color-accent-700))] dark:text-[rgb(var(--color-accent-400))] hover:underline">
+                                                                                                              Xem repo trên GitHub
+                                                                                                            </a>
+                                                                                                          ) : (
+                                                                                                            "Next.js, Tailwind, TypeScript - mọi PR đều hoan nghênh"
+                                                                                                          )}
+                                                                                                        </p>
+                                                                                                      </div>
+                                                                                                    </li>
                                                 </ul>
                                                 {siteLinks.githubRepo && (
                                                   <div className="mt-6 pt-6 border-t border-border">
