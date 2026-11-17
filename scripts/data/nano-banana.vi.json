@@ -1,0 +1,218 @@
+[
+  {
+    "id": "nanobanana-vi-1",
+    "title": "Ảnh sản phẩm packshot nền studio",
+    "content": "Tạo ảnh chụp sản phẩm chuẩn thương mại cho [TÊN SẢN PHẨM] trên nền studio.\n\nYêu cầu:\n- Sản phẩm đặt chính giữa, chiếm 70% khung hình, tỉ lệ 1:1.\n- Nền gradient [MÀU NỀN] chuyển nhẹ, không có chi tiết gây nhiễu.\n- Ánh sáng softbox 3 điểm: key light chếch 45 độ bên trái, fill light bên phải, rim light phía sau để tách khỏi nền.\n- Bóng đổ mềm, ngắn, đổ về phía sau bên phải.\n- Giữ nguyên logo, nhãn, chữ in trên bao bì của sản phẩm gốc, không bịa thêm chữ.\n- Chất liệu/độ bóng của sản phẩm phải đúng: nhựa bóng, kim loại xước, giấy mờ…\n- Không thêm người, không thêm vật thể lạ.\n- Độ phân giải cao, sắc nét toàn bộ, không noise.\n\nĐầu ra: một ảnh duy nhất, không kèm chữ mô tả hay watermark.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "product", "packshot"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-2",
+    "title": "Poster quảng cáo có chữ tiếng Việt chuẩn",
+    "content": "Thiết kế poster quảng cáo dọc tỉ lệ 3:4 cho [SẢN PHẨM/DỊCH VỤ] có chữ tiếng Việt hiển thị chính xác.\n\nBố cục:\n- Nửa trên: ảnh sản phẩm nổi bật, ánh sáng [PHONG CÁCH ÁNH SÁNG].\n- Nửa dưới: vùng nền trơn [MÀU] để đặt typography.\n- Tiêu đề lớn: \"[TIÊU ĐỀ CHÍNH]\" — font sans-serif đậm, đúng chính tả từng dấu.\n- Phụ đề nhỏ: \"[MÔ TẢ NGẮN]\" — font sans-serif mảnh, cùng hệ màu.\n- Góc dưới phải: nút CTA \"[TEXT CTA]\" dạng viên thuốc, màu tương phản.\n\nRàng buộc:\n- Toàn bộ chữ phải đúng tiếng Việt có dấu, không biến thành ký tự lạ, không viết sai dấu.\n- Không thêm bất kỳ chữ nào ngoài 3 chuỗi trên.\n- Tỉ lệ tương phản chữ/nền đủ đọc trên mobile.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "poster", "typography", "marketing"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-3",
+    "title": "Chân dung doanh nhân chuẩn studio",
+    "content": "Tạo ảnh chân dung chuyên nghiệp cho [MÔ TẢ NGƯỜI: giới tính, độ tuổi, kiểu tóc, trang phục] theo phong cách corporate headshot.\n\nThông số:\n- Ống kính tương đương 85mm, khẩu độ f/2.0, khoảng cách nửa thân trên.\n- Nền studio [MÀU/CHẤT LIỆU] mờ nhẹ, không chi tiết.\n- Ánh sáng Rembrandt dịu, da giữ texture tự nhiên, không làm mịn quá mức.\n- Biểu cảm tự tin, mắt nhìn thẳng ống kính, vai hơi xoay 15 độ.\n- Trang phục chỉn chu, không nhăn, đúng nghiệp vụ.\n- Màu sắc trung tính, cân bằng trắng chuẩn, không ám vàng.\n\nKhông thêm logo, không thêm chữ, không thêm người thứ hai trong khung.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "portrait", "corporate"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-4",
+    "title": "Nhân vật 3D phong cách hoạt hình Pixar",
+    "content": "Tạo một nhân vật 3D phong cách hoạt hình điện ảnh (Pixar/Disney-like) từ mô tả sau: [MÔ TẢ NHÂN VẬT: tuổi, giới tính, dáng người, trang phục, tính cách].\n\nYêu cầu kỹ thuật:\n- Kết xuất 3D, da có subsurface scattering nhẹ, tóc dạng sợi mềm.\n- Mắt to biểu cảm, có điểm sáng phản chiếu rõ.\n- Ánh sáng viền ấm phía sau, key light mát phía trước.\n- Nền gradient đơn giản, độ sâu trường ảnh nông.\n- Tư thế nửa người, biểu cảm [CẢM XÚC: vui vẻ/tò mò/quyết tâm].\n- Phong cách: hoạt hình dễ thương nhưng cao cấp, không rối chi tiết.\n\nĐầu ra 1 ảnh, tỉ lệ 1:1, không chữ.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "3d", "character", "animation"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-5",
+    "title": "Infographic bản đồ minh họa",
+    "content": "Tạo infographic dạng bản đồ minh họa cho chủ đề [CHỦ ĐỀ] tại khu vực [ĐỊA DANH].\n\nCấu trúc:\n- Bản đồ phong cách [vẽ tay màu nước / vector phẳng / isometric 3D].\n- 5-7 điểm đánh dấu (pin) có icon riêng cho từng địa điểm.\n- Nhãn tên địa điểm bằng tiếng Việt, viết đúng dấu, font sans-serif nhỏ gọn.\n- Bảng chú giải (legend) ở góc dưới trái, 4-6 mục, có icon tương ứng.\n- La bàn nhỏ góc trên phải, thanh tiêu đề trên cùng.\n- Bảng màu 4 màu chủ đạo: [MÀU 1], [MÀU 2], [MÀU 3], [MÀU 4].\n\nRàng buộc: mọi chữ phải đúng tiếng Việt và đọc được, không viết chữ vô nghĩa, không thêm địa điểm ngoài danh sách tôi đưa.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "infographic", "map"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-6",
+    "title": "Restore & tô màu ảnh cũ",
+    "content": "Phục chế ảnh cũ bị mờ, xước, ố vàng và tô màu hợp lý cho bức ảnh đính kèm.\n\nCần làm:\n- Loại bỏ vết xước, bụi, vết gấp, đốm mốc.\n- Khôi phục chi tiết khuôn mặt, giữ đúng nét và tuổi tác của người trong ảnh, không làm biến dạng mặt.\n- Cân bằng trắng, khử ám vàng/ám xanh, tăng tương phản vừa phải.\n- Tô màu tự nhiên, hợp lý theo bối cảnh (da, vải, cây cối, trời), không rực quá.\n- Giữ nguyên bố cục, không crop, không thêm người, không xóa người.\n- Độ phân giải xuất cao, giữ chất film nhẹ để không giả tạo.\n\nNếu ảnh quá mờ chỗ nào, tái tạo chi tiết theo logic nhưng tuyệt đối không đổi danh tính người trong ảnh.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "restoration", "photo-editing"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-7",
+    "title": "Giữ nguyên nhân vật, đổi bối cảnh",
+    "content": "Giữ NGUYÊN khuôn mặt, kiểu tóc, màu da, dáng người và trang phục của nhân vật trong ảnh gốc, chỉ thay đổi bối cảnh thành: [BỐI CẢNH MỚI].\n\nYêu cầu:\n- Ánh sáng của bối cảnh mới phải chiếu lên nhân vật một cách nhất quán (hướng sáng, nhiệt độ màu, bóng đổ).\n- Tư thế giữ nguyên hoặc chỉ chỉnh nhẹ cho hợp bối cảnh, không đổi gương mặt.\n- Phối cảnh, tỉ lệ nhân vật so với bối cảnh phải đúng thực tế.\n- Thêm phản chiếu/bóng đổ tiếp xúc cho nhân vật không bị \"dán\" lên nền.\n- Không thêm người khác, không đổi trang phục, không đổi biểu cảm.\n\nXuất ảnh cùng tỉ lệ với ảnh gốc.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "character-consistency", "photo-editing"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-8",
+    "title": "Mockup merch: áo thun / tote / cốc",
+    "content": "Tạo mockup sản phẩm in ấn cho [LOẠI SẢN PHẨM: áo thun / tote / cốc sứ / mũ] với thiết kế in là: [MÔ TẢ THIẾT KẾ HOẶC DÁN ẢNH].\n\nYêu cầu:\n- Thiết kế in nằm đúng vị trí ngực trái/giữa ngực, đúng tỉ lệ, ôm theo nếp gấp vải (displacement), không bị phẳng lì.\n- Màu vải [MÀU VẢI], chất liệu cotton thấy rõ thớ vải.\n- Ánh sáng studio mềm, một ảnh chính diện + một ảnh góc 30 độ (hoặc bố cục 2 khung cạnh nhau).\n- Nền trơn [MÀU NỀN], có bóng đổ nhẹ dưới sản phẩm.\n- Không thêm chữ, không thêm logo lạ.\n\nĐầu ra sắc nét, đủ chi tiết để dùng làm ảnh bán hàng.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "mockup", "merch"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-9",
+    "title": "Kiến trúc isometric 3D",
+    "content": "Tạo hình ảnh isometric 3D cho [CÔNG TRÌNH: căn hộ / quán cafe / văn phòng / cửa hàng] theo phong cách mô hình kiến trúc thu nhỏ.\n\nThông số:\n- Góc nhìn isometric chuẩn (trục 30 độ), thấy 3 mặt của khối công trình.\n- Mô hình đặt trên nền phẳng [MÀU], có bóng đổ mềm.\n- Chi tiết: nội thất nhìn thấy qua mặt cắt, cây xanh, người tí hon, ánh sáng ấm từ cửa sổ.\n- Vật liệu rõ ràng: gỗ, bê tông, kính, kim loại.\n- Bảng màu giới hạn 5 màu, tươi sáng, sạch sẽ.\n- Không chữ, không watermark.\n\nXuất ảnh tỉ lệ 4:3, độ sâu trường ảnh vừa phải để giữ chi tiết.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "isometric", "architecture", "3d"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-10",
+    "title": "Storyboard 6 khung cho video ngắn",
+    "content": "Tạo storyboard 6 khung (lưới 2x3) cho video ngắn về [CHỦ ĐỀ], thời lượng [SỐ GIÂY] giây.\n\nMỗi khung gồm:\n- Hình ảnh minh họa bối cảnh và hành động chính.\n- Góc máy ghi ở góc trên trái mỗi khung (ví dụ: WIDE, CLOSE-UP, OTS).\n- Ghi chú hành động ngắn bằng tiếng Việt dưới mỗi khung, tối đa 8 từ.\n\nRàng buộc:\n- Nhân vật phải nhất quán giữa 6 khung (cùng trang phục, cùng kiểu tóc).\n- Ánh sáng và bảng màu thống nhất toàn bộ storyboard.\n- Khung 1 là hook, khung 6 là CTA.\n- Chữ tiếng Việt đúng dấu, font sans-serif dễ đọc.\n- Nền storyboard trắng, viền khung xám mảnh.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "storyboard", "video"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-11",
+    "title": "Slide thuyết trình có tiêu đề tiếng Việt",
+    "content": "Tạo một slide thuyết trình 16:9 về chủ đề [CHỦ ĐỀ], phong cách [hiện đại tối giản / corporate xanh navy / sáng tạo nhiều màu].\n\nNội dung trên slide:\n- Tiêu đề: \"[TIÊU ĐỀ]\" — font đậm, cỡ lớn, đúng dấu.\n- 3 bullet ngắn: \"[Ý 1]\", \"[Ý 2]\", \"[Ý 3]\".\n- Một hình minh họa/icon lớn bên phải mô tả [HÌNH MINH HỌA].\n- Số trang nhỏ góc dưới phải.\n\nRàng buộc:\n- Chỉ 4 khối chữ như trên, không thêm chữ vô nghĩa.\n- Lề an toàn 60px, không chữ nào chạm mép.\n- Tương phản chữ/nền cao, không dùng chữ mảnh trên nền tối.\n- Không dùng ảnh stock nước ngoài có chữ lạ.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "presentation", "slide"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-12",
+    "title": "Food photography món Việt",
+    "content": "Tạo ảnh chụp món ăn [TÊN MÓN] phong cách food photography chuyên nghiệp.\n\nThông số:\n- Góc máy 45 độ hoặc top-down, tỉ lệ [1:1 / 4:5].\n- Ánh sáng cửa sổ tự nhiên khuếch tán từ bên trái, tạo bóng mềm.\n- Bát/đĩa truyền thống Việt Nam, có hơi nước bốc lên nhẹ.\n- Đạo cụ tối giản: đũa, thìa, vài lá rau thơm, khăn bàn vải thô.\n- Màu sắc thực phẩm tươi, không bão hòa quá, giữ chi tiết texture (da giòn, nước dùng trong).\n- Nền gỗ tối hoặc đá, có độ sâu trường ảnh nông.\n\nKhông thêm chữ, không thêm người, không thêm món khác ngoài yêu cầu.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "food", "photography"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-13",
+    "title": "Thumbnail YouTube tỉ lệ 16:9",
+    "content": "Thiết kế thumbnail YouTube 16:9 cho video về [CHỦ ĐỀ].\n\nBố cục:\n- Chủ thể chính (người/vật) chiếm 50% khung bên trái, biểu cảm mạnh [CẢM XÚC], ánh sáng viền để tách nền.\n- Bên phải: 3-5 từ tiêu đề tiếng Việt cực lớn: \"[TIÊU ĐỀ NGẮN]\" — font đậm, có viền hoặc đổ bóng để nổi trên nền.\n- Nền: [MÔ TẢ NỀN] làm mờ nhẹ, bảng màu tương phản cao (đỏ-vàng hoặc xanh-cam).\n- Một mũi tên hoặc vòng tròn highlight đỏ khoanh vào chi tiết quan trọng.\n\nRàng buộc:\n- Chữ tiếng Việt đúng dấu, không viết sai, không thêm chữ nào khác.\n- Chủ thể phải sắc nét, không mờ, không bị chữ che mặt.\n- Đọc được khi thu nhỏ bằng ngón tay cái.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "thumbnail", "youtube"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-14",
+    "title": "Đổi phong cách nội thất phòng",
+    "content": "Từ ảnh phòng gốc, tái tạo lại phòng theo phong cách [PHONG CÁCH: Japandi / Industrial / Indochine / Scandinavian] nhưng GIỮ NGUYÊN bố cục, kích thước phòng, vị trí cửa và cửa sổ.\n\nYêu cầu:\n- Thay vật liệu sàn, tường, đồ nội thất theo phong cách mới, đúng tỉ lệ thực tế.\n- Ánh sáng tự nhiên từ đúng hướng cửa sổ trong ảnh gốc.\n- Thêm 3-5 điểm nhấn: đèn, tranh, cây, thảm — hợp phong cách, không rối.\n- Bảng màu: [2-3 MÀU CHỦ ĐẠO].\n- Giữ phối cảnh gốc, không kéo giãn, không đổi góc máy.\n- Có thể xuất 1 ảnh, hoặc 1 ảnh ghép 2 khung trước/sau.\n\nKhông thêm chữ, không thêm người.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "interior", "before-after"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-15",
+    "title": "Character sheet nhiều góc nhìn",
+    "content": "Tạo bảng nhân vật (character sheet) cho [MÔ TẢ NHÂN VẬT] phong cách [anime / 3D hoạt hình / tả thực].\n\nBố cục 1 ảnh gồm:\n- 1 hình toàn thân chính diện cỡ lớn.\n- 2 hình nhỏ: góc nghiêng 3/4 và góc sau lưng.\n- 3 ô biểu cảm khuôn mặt (vui, giận, ngạc nhiên).\n- Bảng màu nhỏ 5 ô ở góc dưới phải.\n- Ghi chú ngắn: chiều cao, dáng người, chất liệu trang phục.\n\nRàng buộc:\n- Nhân vật phải NHẤT QUÁN tuyệt đối giữa mọi hình: cùng mặt, cùng tóc, cùng trang phục, cùng tỉ lệ.\n- Nền trắng, không bóng đổ phức tạp.\n- Chữ ghi chú tiếng Việt đúng dấu, cỡ nhỏ nhưng đọc được, không viết sai chính tả.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "character-sheet", "consistency"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-16",
+    "title": "Bìa sách / ebook bán hàng",
+    "content": "Thiết kế bìa sách (ebook) cho tựa đề \"[TỰA ĐỀ]\" về chủ đề [CHỦ ĐỀ].\n\nYêu cầu:\n- Tỉ lệ [1:1.6 dạng bìa sách] hoặc 3:4 cho ebook.\n- Tiêu đề lớn, đúng tiếng Việt có dấu, font [serif sang trọng / sans-serif hiện đại].\n- Tên tác giả nhỏ phía dưới: \"[TÊN TÁC GIẢ]\".\n- Hình ảnh chủ đạo: [MÔ TẢ HÌNH] mang tính ẩn dụ cho chủ đề.\n- Bảng màu 2-3 màu, tương phản cao, phong cách bán chuyên nghiệp (không quá rối).\n- Có không gian thoáng, không chữ nào đè lên chi tiết quan trọng của hình.\n\nRàng buộc: chỉ 2 khối chữ (tựa đề + tác giả), không thêm slogan hay chữ lạ.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "book-cover", "design"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-17",
+    "title": "Bộ concept logo & brand mark",
+    "content": "Tạo bảng concept logo cho thương hiệu [TÊN THƯƠNG HIỆU] trong ngành [NGÀNH], phong cách [tối giản / hữu cơ / công nghệ / thủ công].\n\nBố cục:\n- 6 phương án logo khác nhau xếp lưới 2x3, mỗi ô nền trắng.\n- Mỗi logo dùng 1-2 màu, dạng vector phẳng, không gradient phức tạp.\n- 1 ô nhỏ minh họa ứng dụng (logo trên bao bì / biển hiệu).\n- Bảng màu thương hiệu 4 ô ở góc dưới.\n\nRàng buộc:\n- Chỉ chữ là tên thương hiệu \"[TÊN]\", đúng chính tả, không thêm chữ vô nghĩa.\n- Logo phải đơn giản, nhận diện được khi thu nhỏ 16px.\n- Không sao chép logo thương hiệu đã tồn tại.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "logo", "branding"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-18",
+    "title": "Lookbook thời trang 4 khung",
+    "content": "Tạo lookbook thời trang 4 khung cho bộ sưu tập [MÔ TẢ BỘ SƯU TẬP: chất liệu, màu, phong cách].\n\nYêu cầu:\n- 4 khung xếp lưới 2x2, cùng một người mẫu, cùng bộ trang phục nhưng 4 tư thế/góc khác nhau.\n- Phong cách: editorial, ánh sáng [studio mềm / nắng tự nhiên gắt], nền [MÀU].\n- Người mẫu Việt Nam, trang điểm tự nhiên, tóc gọn.\n- Trang phục phải nhất quán giữa 4 khung: cùng chi tiết, cùng màu, cùng chất liệu.\n- Không khung nào lặp lại y nguyên khung khác.\n\nRàng buộc: không chữ, không watermark, không logo thương hiệu khác.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "fashion", "lookbook"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-19",
+    "title": "Ảnh sản phẩm cầm tay (in-hand)",
+    "content": "Tạo ảnh sản phẩm [TÊN SẢN PHẨM] đang được cầm trên tay người, phong cách review chân thực.\n\nYêu cầu:\n- Bàn tay người Việt, móng sạch, da thật có nếp gấp và texture.\n- Ngón tay cầm đúng cách, không méo, không thừa ngón, không dính vật thể lạ.\n- Sản phẩm đúng tỉ lệ so với bàn tay.\n- Nền mờ: [bàn làm việc / đường phố / quán cafe], độ sâu trường ảnh nông.\n- Ánh sáng tự nhiên, phản chiếu trên bề mặt sản phẩm hợp lý.\n- Góc máy ngang tầm mắt, tỉ lệ 4:5.\n\nRàng buộc: không chữ overlay, không watermark, không thêm sản phẩm thứ hai.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "product", "ugc"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-20",
+    "title": "Ảnh minh họa blog phong cách phẳng",
+    "content": "Tạo ảnh minh họa vector phẳng cho bài viết về [CHỦ ĐỀ], dùng làm ảnh đại diện blog.\n\nYêu cầu:\n- Phong cách flat illustration hiện đại, nét dày vừa, không gradient phức tạp.\n- Bảng màu [3-4 MÀU], nền [MÀU NỀN] trơn.\n- Nhân vật dạng hình khối đơn giản, không chi tiết mặt phức tạp.\n- Thể hiện đúng ẩn dụ của chủ đề: [MÔ TẢ HÀNH ĐỘNG/BIỂU TƯỢNG].\n- Bố cục thoáng, chừa khoảng trống bên trái cho tiêu đề bài viết.\n- Tỉ lệ 16:9.\n\nRàng buộc: không chữ, không logo, không phong cách 3D.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "illustration", "blog"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-21",
+    "title": "Nâng cấp ảnh bất động sản",
+    "content": "Nâng cấp ảnh bất động sản từ ảnh gốc: làm sáng, cân bằng, và làm đẹp không gian nhưng KHÔNG được bịa thêm đồ đạc lớn hay đổi cấu trúc.\n\nCần làm:\n- Tăng sáng vùng tối, kéo lại chi tiết cửa sổ bị cháy sáng.\n- Cân bằng trắng để tường trắng không bị ám vàng/xanh.\n- Làm phẳng đường cong méo do ống kính góc rộng (nếu có).\n- Dọn chi tiết gây nhiễu: dây điện, đồ lặt vặt, gương phản chiếu người chụp.\n- Giữ nguyên bố cục, cửa, cửa sổ, đồ nội thất chính.\n\nKhông thêm đồ nội thất mới, không đổi vật liệu, không thêm người, không thêm chữ.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "real-estate", "photo-editing"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-22",
+    "title": "Diorama thu nhỏ phong cách sưu tầm",
+    "content": "Tạo ảnh một khối diorama thu nhỏ (mô hình sưu tầm) mô tả cảnh: [MÔ TẢ CẢNH].\n\nThông số:\n- Khối mô hình đặt trên đế tròn gỗ, đường kính ước lệ, đặt trên bàn tối giản.\n- Cảnh bên trong đế: địa hình, công trình, cây, nhân vật tí hon đúng tỉ lệ.\n- Ánh sáng: đèn studio từ trên trái, có bóng đổ dài nhẹ, sương mờ ở lớp nền.\n- Vật liệu rõ: nhựa in 3D, sơn mờ, cỏ mô hình.\n- Độ sâu trường ảnh nông, lấy nét vào phần giữa mô hình.\n- Tỉ lệ 4:3, không chữ, không watermark.\n\nPhong cách tổng thể: mô hình sưu tầm cao cấp, sạch, không rối chi tiết.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "diorama", "miniature", "3d"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-23",
+    "title": "Ảnh so sánh trước / sau",
+    "content": "Tạo ảnh so sánh trước-sau (before/after) cho [QUÁ TRÌNH: cải tạo phòng / làm sạch / trang điểm / chỉnh ảnh].\n\nBố cục:\n- Ảnh chia đôi dọc, đường phân cách mảnh màu trắng.\n- Nửa trái: nhãn \"TRƯỚC\" dạng viên thuốc góc trên trái.\n- Nửa phải: nhãn \"SAU\" dạng viên thuốc góc trên phải.\n- Hai nửa phải CÙNG góc máy, CÙNG khung hình, chỉ khác trạng thái.\n- Xử lý đúng phần \"trước\" theo mô tả: [TÌNH TRẠNG TRƯỚC]; phần \"sau\" theo: [TÌNH TRẠNG SAU].\n\nRàng buộc: chữ tiếng Việt đúng dấu, chỉ 2 nhãn, không thêm chữ khác; không bóp méo phối cảnh.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "before-after", "comparison"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  },
+  {
+    "id": "nanobanana-vi-24",
+    "title": "Ảnh bìa fanpage / banner mạng xã hội",
+    "content": "Thiết kế banner mạng xã hội tỉ lệ 16:9 cho fanpage [TÊN FANPAGE] về [LĨNH VỰC].\n\nYêu cầu:\n- Vùng an toàn: chừa 25% bên trái cho avatar fanpage không bị che.\n- Tiêu đề chính: \"[TIÊU ĐỀ]\" cỡ lớn, đúng dấu.\n- Dòng mô tả nhỏ: \"[MÔ TẢ NGẮN]\" (nếu có).\n- Hình ảnh chủ đạo bên phải: [MÔ TẢ HÌNH] phong cách [minh họa phẳng / ảnh thật blend màu].\n- Bảng màu thương hiệu: [MÀU 1], [MÀU 2].\n- Thêm icon nhỏ liên quan ngành ở góc phải dưới.\n\nRàng buộc:\n- Chỉ 2 khối chữ, không thêm chữ vô nghĩa.\n- Không đặt chi tiết quan trọng ở 25% mép trái.\n- Chữ phải đọc rõ trên mobile.",
+    "category": "Ảnh - Nano Banana",
+    "tags": ["nano-banana", "image-generation", "vietnamese", "banner", "social-media"],
+    "platform": "Gemini",
+    "platforms": ["Gemini"]
+  }
+]

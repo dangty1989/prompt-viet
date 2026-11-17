@@ -1,0 +1,322 @@
+[
+ {
+  "id": "xaydung-vi-1",
+  "title": "Bóc tách khối lượng từ bản vẽ (mẫu BOQ)",
+  "content": "Vai trò: bạn là kỹ sư dự toán công trình dân dụng.\n\nDữ liệu: công trình [LOẠI: nhà phố 3 tầng / biệt thự / cải tạo căn hộ], diện tích sàn [DIỆN TÍCH] m², số tầng [SỐ TẦNG], kết cấu [BÊ TÔNG CỐT THÉP/KHUNG THÉP], mô tả chi tiết [TÔI SẼ DÁN BẢN VỀ MẶT BẰNG VÀ KÍCH THƯỚC].\n\nHãy:\n1. Bảng bóc tách khối lượng theo hạng mục: đào đất | bê tông móng | thép móng | bê tông cột | bê tông dầm sàn | xây tường | trát | ốp lát | sơn | mái | cửa. Cột: hạng mục | đơn vị | khối lượng | công thức/basis tính | ghi chú.\n2. Cách tính rõ ràng: bê tông = dài × rộng × cao × số lượng; thép theo hàm lượng kg/m³ (nêu dải 80–120 kg/m³ cho nhà dân dụng); tường = dài × cao − diện tích cửa.\n3. Hệ số hao hụt / dự phòng từng hạng mục (%).\n4. Bảng tổng hợp vật tư chính: thép (kg), bê tông (m³), gạch (viên), xi măng (bao), cát/đá (m³).\n5. Ghi chú 5 điểm dễ tính sai và cách kiểm tra chéo.\n6. Nêu rõ đây là dự toán sơ bộ, khối lượng chính thức phải bóc từ bản vẽ thi công và đơn giá theo thời điểm.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "boq",
+   "estimation",
+   "engineering",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-2",
+  "title": "Dự toán chi phí xây nhà phố (đơn giá/m²)",
+  "content": "Vai trò: bạn là kỹ sư kinh tế xây dựng tư vấn cho chủ nhà.\n\nThông tin: xây nhà [SỐ TẦNG] tầng, diện tích đất [DIỆN TÍCH] m², diện tích xây dựng mỗi tầng [DIỆN TÍCH] m², móng [ĐƠN/CỌC/BĂNG], mái [BẰNG/TÔN/NGÓI], mức hoàn thiện [CƠ BẢN/TRUNG BÌNH/KHÁ], khu vực [TỈNH/THÀNH].\n\nYêu cầu:\n1. Cách tính tổng diện tích xây dựng theo hệ số: móng (30–50%), tầng trệt (100%), lầu (100%), mái bằng (50%), mái tôn (30%), sân/thông tầng — nêu công thức và áp số vào dữ liệu của tôi.\n2. Đơn giá tham khảo theo 3 mức hoàn thiện (VND/m²) và khoảng tin cậy; nói rõ đơn giá thay đổi theo thời điểm và khu vực.\n3. Bảng dự toán tổng: phần thô | hoàn thiện | nội thất cơ bản | phí thiết kế | phí xin phép | dự phòng 10%.\n4. Phân tích phương án: thuê trọn gói (chìa khoá trao tay) vs tự quản lý từng phần — ưu/nhược, chi phí chênh lệch, rủi ro.\n5. 6 khoản phát sinh thường gặp làm vượt dự toán (móng yếu, đổi vật liệu, độ dốc mái, điện nước ngầm, phí cấp phép).\n6. Lịch thanh toán theo mốc thi công nên ghi trong hợp đồng.\n\nRàng buộc: nêu rõ đơn giá là tham khảo, cần 3 báo giá thực tế từ nhà thầu để so sánh.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "budget",
+   "estimation",
+   "house",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-3",
+  "title": "Kế hoạch tiến độ thi công Gantt (nhà phố 4 tầng)",
+  "content": "Vai trò: bạn là chỉ huy trưởng công trình. Lập tiến độ thi công cho nhà phố [SỐ TẦNG] tầng, diện tích [DIỆN TÍCH] m², móng [LOẠI MÓNG], khởi công [THÁNG].\n\nYêu cầu:\n1. Bảng tiến độ theo tuần: tuần | giai đoạn | công việc | nhân lực | thiết bị | phụ thuộc | sản phẩm giao | mốc kiểm tra.\n   Giai đoạn: chuẩn bị – móng – kết cấu thân – xây tường – mái – điện nước thô – trát – ốp lát – sơn – lắp thiết bị – hoàn thiện – nghiệm thu.\n2. Thời gian mỗi giai đoạn với giả định hợp lý (nêu rõ giả định: 1 đội thợ, không mưa kéo dài...).\n3. Các việc có thể làm song song để rút ngắn tiến độ (ví dụ: xây tường tầng dưới song song với đổ sàn tầng trên).\n4. Đường găng (critical path): việc nào trễ sẽ đẩy cả công trình; việc nào có buffer.\n5. Kế hoạch dự phòng: ảnh hưởng thời tiết mùa mưa, thiếu vật tư, thợ thiếu — cách xử lý.\n6. Mẫu biên bản nghiệm thu theo từng mốc và điều kiện cho phép giai đoạn sau bắt đầu.\n\nTrình bày dạng bảng, có tổng số ngày và ngày dự kiến hoàn thành.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "schedule",
+   "gantt",
+   "project-management",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-4",
+  "title": "Hợp đồng thi công: 12 điều khoản phải có",
+  "content": "Vai trò: bạn là chuyên gia hợp đồng xây dựng. Giúp tôi rà soát/soạn hợp đồng thi công xây dựng nhà ở.\n\nBối cảnh: chủ nhà [TÊN], nhà thầu [TÊN, LOẠI HÌNH], công trình [MÔ TẢ], giá trị hợp đồng [SỐ TIỀN], thời gian [SỐ NGÀY], hình thức [TRỌN GÓI/ NHÂN CÔNG/ CUNG CẤP VẬT TƯ].\n\nYêu cầu:\n1. Liệt kê 12 điều khoản bắt buộc và nội dung cần ghi cho từng điều: đối tượng hợp đồng, phạm vi công việc, tiến độ, giá và phương thức thanh toán, tạm ứng và bảo lãnh, chất lượng vật liệu, an toàn lao động, bảo hành, phạt vi phạm, thay đổi phát sinh, chấm dứt hợp đồng, giải quyết tranh chấp.\n2. Bảng so sánh 3 cách thanh toán (theo mốc, theo khối lượng, theo tiến độ %) và rủi ro cho chủ nhà.\n3. 8 điều khoản bất lợi cho chủ nhà thường bị chèn và câu sửa đề xuất.\n4. Quy định về phát sinh: mức tối đa % giá trị hợp đồng được phép phát sinh, thủ tục duyệt bằng văn bản.\n5. Điều khoản bảo hành: thời hạn theo hạng mục (kết cấu, chống thấm, hoàn thiện, MEP), điều kiện và cách khiếu nại.\n6. Phụ lục bắt buộc: bản vẽ, bảng khối lượng, danh mục vật liệu có xuất xứ, tiến độ chi tiết.\n\nLưu ý: nội dung tham khảo, hợp đồng công trình nên được luật sư xem trước khi ký.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "contract",
+   "legal",
+   "risk",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-5",
+  "title": "Nghiệm thu kết cấu: checklist trước khi đổ bê tông",
+  "content": "Vai trò: bạn là giám sát kết cấu. Lập checklist nghiệm thu cốp pha – cốt thép trước khi đổ bê tông.\n\nCấu kiện: [MÓNG/CỘT/DẦM/SÀN], kích thước [DIỄN GIẢI], mác bê tông [MÁC, Ví dụ B25], thép chủ [ĐƯỜNG KÍNH], thép đai [ĐƯỜNG KÍNH + KHOẢNG CÁCH].\n\nYêu cầu:\n1. Checklist 18 điểm theo 4 nhóm: vị trí – kích thước (tim trục, cao độ, kích thước tiết diện, độ thẳng đứng); cốt thép (đường kính, số lượng, khoảng cách đai, lớp bê tông bảo vệ, neo nối, chiều dài nối, vị trí thép gia cường); cốp pha (độ kín khít, chống văng, độ võng, vệ sinh); chuẩn bị đổ (tưới ẩm, nghiệm thu thép, đường bơm, nhân lực, thời tiết).\n2. Tiêu chí đạt có con số: sai lệch tim trục ≤ 10mm, lớp bê tông bảo vệ theo cấp môi trường, chiều dài nối thép theo đường kính, độ võng cốp pha ≤ L/400.\n3. Quy trình đổ bê tông đúng: tốc độ đổ, chiều cao rơi tự do, đầm dùi (khoảng cách, thời gian), mạch ngừng, bảo dưỡng 7 ngày.\n4. Biên bản nghiệm thu và các trường hợp phải dừng đổ.\n5. 8 lỗi thi công cốt thép phổ biến tại công trình nhỏ và cách phát hiện nhanh.\n6. Ghi chú: chỉ đổ khi có biên bản ký của giám sát và chủ nhà.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "inspection",
+   "structure",
+   "concrete",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-6",
+  "title": "Nghiệm thu chống thấm mái / sân thượng / WC",
+  "content": "Vai trò: bạn là kỹ sư giám sát hoàn thiện. Lập quy trình nghiệm thu chống thấm cho hạng mục [MÁI BẰNG / SÂN THƯỢNG / WC + BAN CÔNG], diện tích [DIỆN TÍCH] m².\n\nYêu cầu:\n1. Các lớp cấu tạo chuẩn từ dưới lên: kết cấu → tạo dốc 1–2% → lớp vữa tạo phẳng → lớp chống thấm (màng/ mastic/ xi măng 2 thành phần) → lớp bảo vệ → lát gạch/ hoàn thiện. Nêu chi tiết từng lớp.\n2. Checklist 14 điểm trước khi phủ lớp bảo vệ: độ ẩm bề mặt, độ dốc đo bằng thước, xử lý chân ống, cổ ống xuyên sàn, khe co giãn, góc chân tường (bo góc), bề mặt không bụi, mạch ngừng, chiều dày màng.\n3. Quy trình thử kín nước: ngâm 48 giờ với mực nước tối thiểu, cách đánh dấu mực nước, kiểm tra trần tầng dưới, biên bản.\n4. Các điểm thường thấm nhất và cách xử lý riêng: chân tường giáp mái, ống xuyên sàn, khe nhiệt, cổ ống thông hơi, mép sân thượng.\n5. Vật liệu chống thấm: so sánh 3 loại (màng khò bitum, mastic polyurethane, xi măng 2 thành phần) — ưu/nhược, tuổi thọ, giá/m² tương đối.\n6. Điều khoản bảo hành chống thấm (thời hạn, điều kiện bảo hành, mức bồi thường nếu thấm).\n\nTrình bày có bảng, làm được ngay trên công trình.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "waterproofing",
+   "inspection",
+   "roofing",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-7",
+  "title": "Xử lý sự cố công trình: nứt, thấm, lún",
+  "content": "Vai trò: bạn là kỹ sư kết cấu tư vấn xử lý sự cố. Hãy phân tích và đề xuất hướng xử lý.\n\nSự cố: [MÔ TẢ: vết nứt ở đâu, hình dạng, chiều dài, độ mở mm, khi nào xuất hiện], [THẤM ở đâu, mức độ], [LÚN: có nghiêng, cửa kẹt không], nhà [SỐ TẦNG], tuổi công trình [SỐ NĂM], đất nền [LOẠI ĐẤT/ĐÃ XỬ LÝ CHƯA].\n\nYêu cầu:\n1. Phân loại vết nứt: 5 loại phổ biến (nứt do co ngót, do nhiệt, do lún, do quá tải, nứt kết cấu) — hình dạng đặc trưng | độ rộng | mức nguy hiểm | hướng xử lý. Nêu rõ nứt nào phải dừng sử dụng và gọi kỹ sư.\n2. Bảng phân mức độ nguy hiểm theo chiều rộng vết nứt (≤0,3mm / 0,3–1mm / >1mm) và hành động tương ứng.\n3. Phương án xử lý cho từng loại: keo epoxy bơm, vữa chống thấm, gia cố (tăng cường), xử lý nền móng — điều kiện áp dụng và giới hạn.\n4. Cách theo dõi lún/nứt: dán miếng đo, chụp ảnh có ngày, đo lại sau 2 tuần và 1 tháng — cách lập hồ sơ.\n5. Khi nào cần thuê đơn vị kiểm định độc lập và chi phí khái toán.\n6. 6 nguyên nhân gốc thường bị bỏ qua (móng không đủ sâu, thoát nước kém, thay đổi công năng, câu cắt dầm, chất lượng bê tông, tải nặng đặt sai vị trí).\n\nRàng buộc: không kết luận nguyên nhân khi thiếu dữ liệu; liệt kê thông tin cần khảo sát thêm.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "defect",
+   "structure",
+   "diagnosis",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-8",
+  "title": "An toàn lao động công trường: kế hoạch & checklist",
+  "content": "Vai trò: bạn là cán bộ an toàn lao động. Lập kế hoạch an toàn cho công trình nhà ở [SỐ TẦNG] tầng, quy mô [SỐ CÔNG NHÂN] người, thời gian thi công [SỐ THÁNG].\n\nYêu cầu:\n1. Đánh giá rủi ro dạng bảng: 12 rủi ro chính (ngã cao, điện giật, vật rơi, sập cốp pha, thiếu không gian hẹp, bụi, tiếng ồn, hoá chất, máy cắt, cháy nổ, say nắng, giao thông trong công trường) — cột: rủi ro | khả năng | mức nghiêm trọng | biện pháp kiểm soát | người chịu trách nhiệm.\n2. Checklist trang bị bảo hộ bắt buộc theo từng công việc (mũ, dây an toàn, giày, kính, găng, mặt nạ).\n3. Yêu cầu hệ thống an toàn tối thiểu: lan can, lưới chắn, giàn giáo đúng chuẩn, che chắn tầng, biển báo, đường cấp cứu.\n4. Quy trình báo cáo tai nạn và xử lý ban đầu: 5 bước, số điện thoại cấp cứu, người phụ trách.\n5. Huấn luyện an toàn: nội dung buổi 30 phút đầu tuần, cách kiểm tra nhắc nhở.\n6. Checklist tự kiểm tra hàng ngày (10 điểm) và hàng tuần (8 điểm) — để in và tick.\n\nLưu ý: nêu rõ trách nhiệm pháp lý của chủ nhà và nhà thầu về an toàn lao động.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "safety",
+   "osha",
+   "checklist",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-9",
+  "title": "So sánh vật liệu xây dựng: gạch, xi măng, sơn, tôn",
+  "content": "Vai trò: bạn là chuyên gia vật liệu xây dựng. So sánh lựa chọn vật liệu cho công trình [LOẠI] ở [KHU VỰC], ngân sách [MỨC].\n\nYêu cầu bảng so sánh cho 4 nhóm:\n1. Gạch xây: gạch đất nung đặc, gạch lỗ, gạch không nung (bê tông/AAC) — cột: cường độ | cách âm/cách nhiệt | trọng lượng | giá/viên | nhược điểm | nên dùng cho.\n2. Xi măng & vữa: PCB30/PCB40, xi măng đa dụng, mác vữa theo hạng mục (xây, trát, lát), tỷ lệ trộn chuẩn cho từng loại.\n3. Sơn: sơn nội thất, ngoại thất, sơn lót kháng kiềm, sơn bóng/mờ — tiêu chí: độ phủ, chống ẩm, kháng nấm mốc, VOC, giá thùng 18L, số lớp cần thiết.\n4. Tôn/ngói: tôn lạnh 1 lớp, tôn mát 3 lớp, ngói màu, ngói bê tông — cách nhiệt, độ bền, chống ồn mưa, giá/m², phù hợp khí hậu.\n\nNgoài bảng:\n5. Cách nhận biết hàng thật/giả và mẹo khi mua (tem, mã lô, hoá đơn, kiểm tra tại kho).\n6. Tính toán nhanh lượng vật tư cho 1m² tường xây 110/220 và 1m² trát.\n7. 5 sai lầm khi chọn vật liệu để tiết kiệm mà tốn về sau.\n\nKết luận: bộ vật liệu khuyến nghị cho ngân sách của tôi.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "materials",
+   "comparison",
+   "procurement",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-10",
+  "title": "MEP điện nước: bản vẽ nguyên lý & checklist lắp đặt",
+  "content": "Vai trò: bạn là kỹ sư MEP. Tư vấn hệ điện – nước cho nhà ở [SỐ TẦNG] tầng, [SỐ PHÒNG NGỦ], có [ĐIỀU HOÀ/BÌNH NÓNG/ MÁY BƠM].\n\nYêu cầu:\n1. Sơ đồ nguyên lý điện bằng mô tả văn bản (phòng → ổ cắm → công tắc → đèn → CB): số nhánh, tiết diện dây theo tải (chiếu sáng 1,5mm², ổ cắm 2,5mm², điều hoà 2,5–4mm², bếp điện 4–6mm²), CB tương ứng, tiếp địa, chống giật.\n2. Bảng tính tải sơ bộ: liệt kê thiết bị theo phòng, công suất, tổng tải, cách chọn CB tổng.\n3. Sơ đồ nguyên lý nước: đường cấp (đồng hồ → bơm → bồn → các tầng), đường thoát (chậu, sen, sàn, bồn cầu, thoát mưa) với đường kính ống (cấp 21/25/27, thoát 60/90/110), độ dốc thoát 1–2%.\n4. Checklist 20 điểm lắp đặt: ống âm tường không nối trong tường, bảo ôn ống nóng, van khoá từng khu, hộp kỹ thuật, đánh dấu vị trí ống trước khi trát, khoảng cách ống điện – ống nước.\n5. Cách kiểm tra: thử áp lực nước 30 phút, đo cách điện, thử rò, test CB, test bơm.\n6. 8 lỗi MEP phổ biến gây sửa chữa tốn kém (thiếu ổ cắm, CB nhỏ, không tiếp địa, ống thoát đi ngang trần, không để hộp thăm).\n\nTrình bày có bảng và ghi chú an toàn.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "mep",
+   "electrical",
+   "plumbing",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-11",
+  "title": "Báo cáo hiện trạng nhà trước cải tạo",
+  "content": "Vai trò: bạn là kỹ sư khảo sát. Lập báo cáo hiện trạng cho nhà [LOẠI NHÀ], diện tích [DIỆN TÍCH] m², tuổi công trình [SỐ NĂM], dự kiến cải tạo [MÔ TẢ: thêm tầng / đổi công năng / sửa thấm].\n\nYêu cầu:\n1. Checklist khảo sát theo 7 hạng mục: kết cấu (cột, dầm, sàn, móng có bị lộ thép/ nứt), tường và trát, mái và chống thấm, điện, nước, cửa, nền và cao độ. Mỗi mục: cách kiểm tra | ghi nhận gì | dụng cụ cần.\n2. Cách đánh giá khả năng chịu tải khi thêm tầng: 5 thông tin phải có (bản vẽ cũ, tuổi công trình, kích thước cột dầm, chất lượng bê tông, đất nền) và khi nào cần thí nghiệm.\n3. Bảng phân loại công việc: giữ nguyên | sửa chữa | đập bỏ | làm mới — kèm khối lượng sơ bộ và chi phí khái toán.\n4. Danh sách 6 hồ sơ phải chuẩn bị trước khi xin phép xây dựng/sửa chữa.\n5. Rủi ro chính khi cải tạo nhà cũ (kết cấu không như bản vẽ, ống ngầm, hàng xóm, giấy phép) và cách giảm thiểu.\n6. Thứ tự thi công để tránh làm lại (kết cấu → MEP thô → trát → hoàn thiện).\n\nKết luận: 3 khuyến nghị ưu tiên với chi phí tương ứng.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "renovation",
+   "survey",
+   "report",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-12",
+  "title": "Lịch thanh toán & quản lý dòng tiền khi xây nhà",
+  "content": "Vai trò: bạn là chuyên viên quản lý tài chính dự án xây dựng. Hãy lập kế hoạch dòng tiền xây nhà.\n\nThông tin: tổng ngân sách [SỐ TIỀN] tỷ, có sẵn [SỐ TIỀN] tỷ, vay [SỐ TIỀN] (lãi [%/năm], thời hạn [NĂM]), thời gian thi công [SỐ THÁNG], khởi công [THÁNG/NĂM].\n\nYêu cầu:\n1. Bảng dòng tiền theo tháng: số tiền phải trả | luỹ kế | số dư tiền mặt | lãi vay phát sinh — tính cả giai đoạn trả nợ.\n2. Lịch thanh toán nhà thầu theo mốc chuẩn: tạm ứng (10–30%), móng xong, đổ sàn từng tầng, mái xong, hoàn thiện thô, hoàn thiện cuối, bảo hành giữ lại (5%). Nêu % hợp lý từng mốc.\n3. Nguyên tắc quản lý: giữ quỹ dự phòng 10–15% không đụng tới, không trả trước quá mốc, luôn có biên bản nghiệm thu trước khi chuyển tiền.\n4. Cách tránh vượt ngân sách: dự toán theo 3 mức giá vật liệu, mua vật tư chính trực tiếp, kiểm soát phát sinh bằng văn bản.\n5. Phân tích: nên vay ngân hàng hay vay người thân; vay dài hạn khi lãi thấp — bảng so sánh tổng lãi.\n6. Bảng theo dõi chi tiêu thực tế vs kế hoạch (template) với cột chênh lệch và lý do.\n\nTrình bày rõ ràng, đơn vị tỷ/triệu VNĐ, kèm cảnh báo rủi ro dòng tiền.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "finance",
+   "cashflow",
+   "planning",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-13",
+  "title": "Xin phép xây dựng: hồ sơ & quy trình",
+  "content": "Vai trò: bạn là chuyên viên tư vấn thủ tục xây dựng. Hướng dẫn xin [GIẤY PHÉP XÂY DỰNG MỚI / ĐIỀU CHỈNH / CẢI TẠO] cho nhà ở tại [PHƯỜNG/XÃ, QUẬN/HUYỆN, TỈNH/THÀNH], diện tích đất [DIỆN TÍCH] m², mục đích sử dụng đất [LOẠI ĐẤT].\n\nYêu cầu:\n1. Danh mục hồ sơ đầy đủ gồm 9 loại: đơn đề nghị, giấy chứng nhận quyền sử dụng đất, bản vẽ thiết kế (mặt bằng, mặt đứng, mặt cắt, sơ đồ cấp thoát nước, sơ đồ điện), giấy tờ chứng minh quyền sở hữu công trình hiện hữu (nếu cải tạo), cam kết an toàn công trình lân cận, hồ sơ năng lực nhà thầu/ thiết kế, biên bản kiểm tra hiện trạng.\n2. Quy trình 5 bước: chuẩn bị → nộp tại bộ phận một cửa → nhận phiếu hẹn → bổ sung nếu có → nhận giấy phép. Mỗi bước: cơ quan, thời gian xử lý theo quy định, phí/lệ phí.\n3. Các điều kiện cấp phép cần kiểm tra trước: quy hoạch, chỉ giới, khoảng lùi, mật độ xây dựng, số tầng, chiều cao — cách đọc từ bản đồ quy hoạch.\n4. 6 lý do phổ biến bị từ chối/ trả hồ sơ và cách xử lý.\n5. Cách ghi lại tiến trình: số hồ sơ, ngày nộp, người nhận, biên nhận — mẫu bảng theo dõi.\n6. Ghi chú: thời gian, phí và thẩm quyền thay đổi theo địa phương và thời điểm; cần xác nhận tại bộ phận một cửa.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "permit",
+   "legal",
+   "procedure",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-14",
+  "title": "Nhật ký công trình & báo cáo tuần cho chủ nhà",
+  "content": "Vai trò: bạn là chỉ huy trưởng. Tạo mẫu nhật ký thi công và báo cáo tuần cho chủ nhà.\n\nCông trình: [LOẠI, DIỆN TÍCH], giai đoạn hiện tại [MÓNG/THÂN/HOÀN THIỆN], tuần báo cáo [Tuần số / Ngày].\n\nYêu cầu:\n1. Mẫu nhật ký công trình hàng ngày (15 trường): ngày, thời tiết, số công nhân theo tổ, công việc từng tổ, vật tư nhập/xuất, thiết bị, sự cố, hình ảnh, chỉ đạo của giám sát, chữ ký.\n2. Mẫu báo cáo tuần 1 trang cho chủ nhà gồm: tiến độ thực tế so kế hoạch (%), việc đã xong, việc tồn, phát sinh (nội dung + chi phí), rủi ro tuần sau, cần chủ nhà quyết định gì, ảnh hiện trường 4–6 tấm.\n3. Cách ghi nhận phát sinh đúng chuẩn để được duyệt: mô tả, nguyên nhân, khối lượng đo, ảnh, báo giá, chữ ký.\n4. Checklist dữ liệu phải lưu trong hồ sơ hoàn công: biên bản nghiệm thu từng hạng mục, phiếu bảo hành vật liệu, bản vẽ hoàn công, chứng chỉ xuất xứ.\n5. Quy tắc báo cáo trung thực: chậm thì nói chậm, phát sinh thì báo ngay trong 48 giờ — vì sao điều này giúp ích cho cả hai bên.\n6. Mẫu tin nhắn Zalo báo cáo nhanh hàng ngày (3 dòng) cho chủ nhà bận rộn.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "reporting",
+   "project-management",
+   "template",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-15",
+  "title": "Tính kết cấu sơ bộ: chọn tiết diện cột, dầm, sàn",
+  "content": "Vai trò: bạn là kỹ sư kết cấu. Hướng dẫn chọn tiết diện sơ bộ cho nhà [SỐ TẦNG] tầng, nhịp [NHỊP] m, tải trọng sử dụng [VĂN PHÒNG/ Ở/ KHO], sàn [DIỆN TÍCH] m².\n\nYêu cầu:\n1. Chọn chiều dày sàn theo công thức thực dụng h = (L/30 ÷ L/35) cho sàn ở, nêu cách tính và ví dụ với nhịp của tôi.\n2. Chọn tiết diện dầm: h = (1/8 ÷ 1/12) × nhịp, b = (0,3 ÷ 0,5) × h; ví dụ tính cụ thể cho nhịp tôi nêu.\n3. Chọn tiết diện cột: công thức thực dụng Ac = k × N / (Rb × μ), trong đó N là tổng tải xuống chân cột; hướng dẫn tính N từ tải sàn + tường + tải sử dụng, kể cả cách tính gần đúng theo tải 12–15 kN/m² sàn cho nhà ở.\n4. Hàm lượng thép hợp lý 80–120 kg/m³ cho nhà dân dụng và cách kiểm tra khối lượng thép dự toán có bất thường không.\n5. Bảng tóm tắt tiết diện đề xuất cho công trình của tôi theo từng tầng (giảm dần lên cao).\n6. Cảnh báo: đây là chọn sơ bộ để dự toán, không thay thế tính toán kết cấu chính thức của kỹ sư có chứng chỉ hành nghề.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "structure",
+   "engineering",
+   "calculation",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "xaydung-vi-16",
+  "title": "Chọn nhà thầu: tiêu chí & câu hỏi phỏng vấn",
+  "content": "Vai trò: bạn là cố vấn cho chủ nhà. Hướng dẫn chọn nhà thầu thi công.\n\nBối cảnh: công trình [LOẠI, DIỆN TÍCH], ngân sách [SỐ TIỀN], có [SỐ BÁO GIÁ] từ các nhà thầu, hình thức [TRỌN GÓI/ NHÂN CÔNG].\n\nYêu cầu:\n1. Bộ 12 tiêu chí chấm điểm nhà thầu (thang 1–5): năng lực pháp lý, kinh nghiệm loại công trình tương tự, số công trình đã làm, đội thợ cơ hữu hay thời vụ, giám sát tại công trình, báo giá minh bạch, danh mục vật liệu có xuất xứ, tiến độ cam kết, chế độ bảo hành, phản hồi nhanh, tham khảo khách cũ, điều khoản hợp đồng hợp lý. Có trọng số và cách tính tổng điểm.\n2. Bộ 15 câu hỏi phỏng vấn nhà thầu — câu nào để phát hiện nhà thầu yếu (ví dụ: đội thợ ở đâu, ai giám sát hàng ngày, phát sinh xử lý thế nào, vật tư mua ở đâu, có cho xem công trình đang làm không).\n3. Cách kiểm chứng thông tin: xem 2 công trình đang thi công, gọi 3 khách cũ, kiểm tra mã số thuế/giấy phép, hỏi hàng xóm công trình cũ.\n4. So sánh báo giá đúng cách: chuẩn hoá theo cùng khối lượng và cùng danh mục vật liệu, tìm khoản bị bỏ sót (báo giá thiếu hạng mục để sau đó phát sinh).\n5. 8 dấu hiệu cảnh báo nhà thầu không nên chọn (đòi tạm ứng cao, không chịu ghi vật liệu cụ thể, không có hợp đồng, hứa giá rẻ bất thường, không cho xem công trình).\n6. Kết luận mẫu: bảng xếp hạng các nhà thầu tôi đang cân nhắc và khuyến nghị.",
+  "category": "Xây dựng",
+  "tags": [
+   "construction",
+   "contractor",
+   "selection",
+   "procurement",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ }
+]

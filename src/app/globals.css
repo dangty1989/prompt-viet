@@ -1,0 +1,608 @@
+@import "tailwindcss";
+
+/* ============================================================
+   PRIMITIVE TOKENS - Raw values (HSL space-separated for opacity)
+   ============================================================ */
+@theme {
+  /* Brand Primitive - Warm graphite (ink on paper, not purple) */
+  --color-brand-50: 250 250 249;
+  --color-brand-100: 245 245 244;
+  --color-brand-200: 231 229 228;
+  --color-brand-300: 214 211 209;
+  --color-brand-400: 168 162 158;
+  --color-brand-500: 120 113 108;
+  --color-brand-600: 87 83 78;
+  --color-brand-700: 68 64 60;
+  --color-brand-800: 41 37 36;
+  --color-brand-900: 28 25 23;
+  --color-brand-950: 12 10 9;
+
+  /* Accent Primitive - Amber (print ink, editorial) */
+  --color-accent-50: 250 246 236;
+  --color-accent-100: 240 231 208;
+  --color-accent-200: 224 205 158;
+  --color-accent-300: 210 175 100;
+  --color-accent-400: 202 138 4;
+  --color-accent-500: 183 112 9;
+  --color-accent-600: 161 98 7;
+  --color-accent-700: 133 77 14;
+  --color-accent-800: 113 63 18;
+  --color-accent-900: 84 47 12;
+
+  /* Neutral Primitive - Stone (warm, matched to brand) */
+  --color-neutral-50: 250 250 249;
+  --color-neutral-100: 245 245 244;
+  --color-neutral-200: 231 229 228;
+  --color-neutral-300: 214 211 209;
+  --color-neutral-400: 168 162 158;
+  --color-neutral-500: 120 113 108;
+  --color-neutral-600: 87 83 78;
+  --color-neutral-700: 68 64 60;
+  --color-neutral-800: 41 37 36;
+  --color-neutral-900: 28 25 23;
+  --color-neutral-950: 12 10 9;
+
+  /* Semantic Colors - Light mode (cream paper + ink) */
+  --color-background: 251 249 245;
+  --color-foreground: 28 25 23;
+  --color-card: 255 255 255;
+  --color-card-foreground: 12 10 9;
+  --color-popover: 255 255 255;
+  --color-popover-foreground: 12 10 9;
+
+  --color-primary: 41 37 36;
+  --color-primary-foreground: 255 255 255;
+  --color-primary-hover: 28 25 23;
+  --color-primary-active: 12 10 9;
+
+  --color-secondary: 245 245 244;
+  --color-secondary-foreground: 28 25 23;
+  --color-secondary-hover: 231 229 228;
+
+  --color-accent: 161 98 7;
+  --color-accent-foreground: 255 255 255;
+  --color-accent-hover: 133 77 14;
+
+  --color-muted: 242 238 231;
+  --color-muted-foreground: 108 100 92;
+
+  --color-destructive: 0 84% 60%;
+  --color-destructive-foreground: 0 0% 100%;
+
+  --color-border: 228 223 214;
+  --color-input: 228 223 214;
+  --color-ring: 41 37 36;
+
+  /* Typography */
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  --font-heading: var(--font-serif), Georgia, "Times New Roman", serif;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Border radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms;
+  --transition-normal: 200ms;
+  --transition-slow: 300ms;
+
+  /* Z-index scale */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal-backdrop: 400;
+  --z-modal: 500;
+  --z-popover: 600;
+  --z-tooltip: 700;
+}
+
+/* Light theme tokens as plain CSS — @theme only emits variables that utilities reference,
+   so page-level rgb(var(--color-*)) needs a :root definition to resolve. */
+:root {
+  --color-background: 251 249 245;
+  --color-foreground: 28 25 23;
+  --color-card: 255 255 255;
+  --color-card-foreground: 12 10 9;
+  --color-popover: 255 255 255;
+  --color-popover-foreground: 12 10 9;
+  --color-primary: 41 37 36;
+  --color-primary-foreground: 255 255 255;
+  --color-primary-hover: 28 25 23;
+  --color-primary-active: 12 10 9;
+  --color-secondary: 245 245 244;
+  --color-secondary-foreground: 28 25 23;
+  --color-secondary-hover: 231 229 228;
+  --color-accent: 161 98 7;
+  --color-accent-foreground: 255 255 255;
+  --color-accent-hover: 133 77 14;
+  --color-muted: 242 238 231;
+  --color-muted-foreground: 108 100 92;
+  --color-border: 228 223 214;
+  --color-input: 228 223 214;
+  --color-ring: 41 37 36;
+}
+
+/* ============================================================
+   DARK MODE SEMANTIC TOKENS
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+  @theme {
+    --color-background: 12 10 9;
+    --color-foreground: 250 250 249;
+    --color-card: 28 25 23;
+    --color-card-foreground: 250 250 249;
+    --color-popover: 28 25 23;
+    --color-popover-foreground: 250 250 249;
+
+    --color-primary: 120 113 108;
+    --color-primary-foreground: 12 10 9;
+    --color-primary-hover: 168 162 158;
+    --color-primary-active: 87 83 78;
+
+    --color-secondary: 41 37 36;
+    --color-secondary-foreground: 245 245 244;
+    --color-secondary-hover: 68 64 60;
+
+    --color-accent: 183 112 9;
+    --color-accent-foreground: 12 10 9;
+    --color-accent-hover: 202 138 4;
+
+    --color-muted: 41 37 36;
+    --color-muted-foreground: 168 162 158;
+
+    --color-destructive: 0 62% 30%;
+    --color-destructive-foreground: 0 0% 100%;
+
+    --color-border: 41 37 36;
+    --color-input: 41 37 36;
+    --color-ring: 120 113 108;
+  }
+}
+
+/* Manual dark mode class support */
+.dark {
+  --color-background: 12 10 9;
+  --color-foreground: 250 250 249;
+  --color-card: 28 25 23;
+  --color-card-foreground: 250 250 249;
+  --color-popover: 28 25 23;
+  --color-popover-foreground: 250 250 249;
+
+  --color-primary: 120 113 108;
+  --color-primary-foreground: 12 10 9;
+  --color-primary-hover: 168 162 158;
+  --color-primary-active: 87 83 78;
+
+  --color-secondary: 41 37 36;
+  --color-secondary-foreground: 245 245 244;
+  --color-secondary-hover: 68 64 60;
+
+  --color-accent: 183 112 9;
+  --color-accent-foreground: 12 10 9;
+  --color-accent-hover: 202 138 4;
+
+  --color-muted: 41 37 36;
+  --color-muted-foreground: 168 162 158;
+
+  --color-destructive: 0 62% 30%;
+  --color-destructive-foreground: 0 0% 100%;
+
+  --color-border: 41 37 36;
+  --color-input: 41 37 36;
+  --color-ring: 120 113 108;
+}
+
+/* ============================================================
+   BASE STYLES
+   ============================================================ */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+}
+
+body {
+  background: rgb(var(--color-background));
+  color: rgb(var(--color-foreground));
+  font-family: var(--font-sans);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Selection */
+::selection {
+  background: rgb(var(--color-primary) / 0.3);
+  color: rgb(var(--color-primary-foreground));
+}
+
+/* Focus visible */
+*:focus-visible {
+  outline: 2px solid rgb(var(--color-ring));
+  outline-offset: 2px;
+}
+
+/* ============================================================
+   SCROLLBAR - Standard scrollbar-color & scrollbar-width
+   with WebKit fallback wrapped in @supports
+   ============================================================ */
+:root {
+  --scrollbar-thumb: rgb(214 211 209);
+  --scrollbar-track: transparent;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  scrollbar-width: thin;
+}
+
+.dark {
+  --scrollbar-thumb: rgb(87 83 78);
+  --scrollbar-track: transparent;
+}
+
+/* Fallback for WebKit/Blink browsers that don't support standard properties */
+@supports not (scrollbar-color: auto) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: var(--radius-full);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(168 162 158);
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+  }
+
+  .dark ::-webkit-scrollbar-thumb:hover {
+    background: rgb(120 113 108);
+  }
+}
+
+/* Map <meta name="color-scheme"> to CSS color-scheme property */
+:root {
+  color-scheme: light dark;
+}
+
+:root:has(> head > meta[name="color-scheme"][content="dark"]) {
+  color-scheme: dark;
+}
+
+:root:has(> head > meta[name="color-scheme"][content="light"]) {
+  color-scheme: light;
+}
+
+/* ============================================================
+   COMPONENT TOKENS - @layer components
+   ============================================================ */
+@layer components {
+  /* --- Buttons --- */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2
+           rounded-lg font-medium
+           transition-all duration-200 ease-out
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2
+           disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed
+           whitespace-nowrap;
+  }
+
+  .btn-sm { @apply h-9 px-3 text-sm; }
+  .btn-md { @apply h-10 px-4 text-sm; }
+  .btn-lg { @apply h-12 px-6 text-base; }
+  .btn-icon { @apply h-10 w-10 p-0; }
+
+  .btn-primary {
+    @apply bg-[rgb(var(--color-primary))] text-[rgb(var(--color-primary-foreground))]
+           hover:bg-[rgb(var(--color-primary-hover))]
+           active:bg-[rgb(var(--color-primary-active))]
+           shadow-sm hover:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply bg-[rgb(var(--color-secondary))] text-[rgb(var(--color-secondary-foreground))]
+           hover:bg-[rgb(var(--color-secondary-hover))]
+           shadow-sm;
+  }
+
+  .btn-outline {
+    @apply border border-[rgb(var(--color-border))] bg-transparent
+           hover:bg-[rgb(var(--color-accent))] hover:text-[rgb(var(--color-accent-foreground))]
+           hover:border-transparent;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent
+           hover:bg-[rgb(var(--color-accent))] hover:text-[rgb(var(--color-accent-foreground))];
+  }
+
+  .btn-destructive {
+    @apply bg-[rgb(var(--color-destructive))] text-[rgb(var(--color-destructive-foreground))]
+           hover:bg-[hsl(var(--color-destructive)/0.9)];
+  }
+
+  .btn-link {
+    @apply bg-transparent p-0 text-[rgb(var(--color-primary))]
+           hover:underline hover:text-[rgb(var(--color-primary-hover))];
+  }
+
+  /* --- Cards --- */
+  .card {
+    @apply rounded-xl border border-[rgb(var(--color-border))]
+           bg-[rgb(var(--color-card))] text-[rgb(var(--color-card-foreground))]
+           shadow-sm hover:shadow-md transition-shadow duration-300;
+  }
+
+  .card-header { @apply px-6 py-4 border-b border-[rgb(var(--color-border))]; }
+  .card-title { @apply text-lg font-semibold tracking-tight; }
+  .card-description { @apply text-sm text-[rgb(var(--color-muted-foreground))] mt-1; }
+  .card-content { @apply px-6 py-4; }
+  .card-footer { @apply px-6 py-4 border-t border-[rgb(var(--color-border))] flex items-center gap-2; }
+
+  /* --- Inputs --- */
+  .input {
+    @apply w-full h-10 px-3 py-2
+           bg-[rgb(var(--color-background))] text-[rgb(var(--color-foreground))]
+           border border-[rgb(var(--color-input))]
+           rounded-lg placeholder:text-[rgb(var(--color-muted-foreground))]
+           transition-all duration-200
+           focus:outline-none focus:ring-2 focus:ring-[rgb(var(--color-ring))] focus:border-transparent
+           disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .input-error {
+    @apply border-[rgb(var(--color-destructive))] focus:ring-[rgb(var(--color-destructive))];
+  }
+
+  .label {
+    @apply block text-sm font-medium text-[rgb(var(--color-foreground))] mb-1.5;
+  }
+
+  /* --- Badges/Tags --- */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium
+           transition-colors duration-200;
+  }
+
+  .badge-primary { @apply bg-[rgb(var(--color-primary)/0.1)] text-[rgb(var(--color-primary))]; }
+  .badge-secondary { @apply bg-[rgb(var(--color-secondary))] text-[rgb(var(--color-secondary-foreground))]; }
+  .badge-accent { @apply bg-[rgb(var(--color-accent)/0.1)] text-[rgb(var(--color-accent))]; }
+  .badge-outline { @apply border border-[rgb(var(--color-border))] bg-transparent; }
+  .badge-success { @apply bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400; }
+  .badge-warning { @apply bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400; }
+
+  /* --- Platform badges --- */
+  .badge-chatgpt { @apply bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400; }
+  .badge-gemini { @apply bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400; }
+  .badge-workspace { @apply bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400; }
+
+  /* --- Layout utilities --- */
+  .container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-16 sm:py-24 lg:py-32;
+  }
+
+  .section-sm { @apply py-12 sm:py-16 lg:py-20; }
+  .section-lg { @apply py-24 sm:py-32 lg:py-40; }
+
+  /* --- Text utilities --- */
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+
+  .heading-1 { @apply text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight; }
+  .heading-2 { @apply text-3xl sm:text-4xl font-bold tracking-tight; }
+  .heading-3 { @apply text-2xl sm:text-3xl font-semibold tracking-tight; }
+  .heading-4 { @apply text-xl sm:text-2xl font-semibold tracking-tight; }
+
+  .body-lg { @apply text-lg text-[rgb(var(--color-muted-foreground))] leading-relaxed; }
+  .body { @apply text-base text-[rgb(var(--color-muted-foreground))] leading-relaxed; }
+  .body-sm { @apply text-sm text-[rgb(var(--color-muted-foreground))] leading-relaxed; }
+
+  /* --- Animation utilities --- */
+  .animate-in {
+    animation: fadeIn var(--transition-normal) ease-out forwards;
+  }
+
+  .slide-up {
+    animation: slideUp var(--transition-slow) ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Staggered animation delays */
+  .delay-1 { animation-delay: 100ms; }
+  .delay-2 { animation-delay: 200ms; }
+  .delay-3 { animation-delay: 300ms; }
+  .delay-4 { animation-delay: 400ms; }
+  .delay-5 { animation-delay: 500ms; }
+}
+
+/* ============================================================
+   PROMPT DETAIL PAGE - Container Queries & Animations
+   ============================================================ */
+.prompt-detail {
+  container-type: inline-size;
+}
+
+.prompt-detail-header {
+  backdrop-filter: blur(8px);
+  background: rgb(var(--color-background) / 0.8);
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.prompt-detail-meta {
+  animation: fadeInDown 0.4s ease-out;
+}
+
+.prompt-detail-title {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.prompt-detail-content {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.prompt-detail-info-grid {
+  animation: fadeInUp 0.7s ease-out;
+}
+
+.prompt-detail-references {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@container (min-width: 640px) {
+  .prompt-detail-title {
+    font-size: 2.25rem;
+  }
+  .prompt-detail-content,
+  .prompt-detail-references {
+    padding: 1.5rem;
+  }
+}
+
+@container (min-width: 1024px) {
+  .prompt-detail-title {
+    font-size: 2.5rem;
+  }
+  .prompt-detail-content,
+  .prompt-detail-references {
+    padding: 2rem;
+  }
+  .prompt-detail-info-grid {
+    gap: 1rem;
+  }
+}
+
+@container (max-width: 639px) {
+  .prompt-detail-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.prompt-detail-content pre {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--color-border)) transparent;
+}
+
+.prompt-detail-content pre::-webkit-scrollbar {
+  width: 8px;
+}
+
+.prompt-detail-content pre::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.prompt-detail-content pre::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--color-border));
+  border-radius: 4px;
+}
+
+/* ============================================================
+   UTILITIES - @layer utilities
+   ============================================================ */
+@layer utilities {
+  /* Emphasis text — solid accent, no gradient text */
+  .text-gradient {
+    color: rgb(133 77 14);
+  }
+
+  .dark .text-gradient {
+    color: rgb(202 138 4);
+  }
+
+  /* Glass morphism */
+  .glass {
+    @apply bg-[rgb(var(--color-card)/0.8)] backdrop-blur-md border border-[rgb(var(--color-border)/0.5)];
+  }
+
+  .glass-dark {
+    @apply bg-[rgb(var(--color-card)/0.6)] backdrop-blur-md border border-[rgb(var(--color-border)/0.3)];
+  }
+
+  /* Gradient borders */
+  .gradient-border {
+    position: relative;
+    background: rgb(var(--color-card));
+    border-radius: var(--radius-xl);
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: var(--radius-xl);
+    background: linear-gradient(135deg, rgb(var(--color-primary)), rgb(var(--color-accent)));
+    z-index: -1;
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+  }
+
+  .gradient-border:hover::before {
+    opacity: 1;
+  }
+}

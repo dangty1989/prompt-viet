@@ -1,0 +1,321 @@
+[
+ {
+  "id": "noithat-vi-1",
+  "title": "Concept Japandi cho căn hộ 68m² 2 phòng ngủ",
+  "content": "Bạn là nhà thiết kế nội thất chuyên căn hộ nhỏ. Hãy xây dựng concept Japandi cho căn hộ [DIỆN TÍCH] m², [SỐ PHÒNG NGỦ] phòng ngủ, hướng [HƯỚNG], gia đình [SỐ NGƯỜI, CÓ TRẺ NHỎ/KHÔNG], ngân sách nội thất [NGÂN SÁCH].\n\nĐầu ra:\n1. Tuyên bố concept 3 câu: tinh thần không gian, cảm xúc mong muốn, điểm nhấn.\n2. Bảng vật liệu chủ đạo: gỗ (loại, tông màu), đá/đất nung, vải (màu, chất liệu), kim loại, cây xanh — mỗi mục kèm mã màu HEX gần đúng và lý do.\n3. Bảng diện tích chức năng: phòng khách – bếp – 2 phòng ngủ – WC – ban công: diện tích, đồ nội thất chính, ghi chú tối ưu.\n4. Danh sách 10 món nội thất ưu tiên theo thứ tự mua, giá tham khảo từng món.\n5. Giải pháp lưu trữ: nơi nào dùng tủ âm, nơi nào dùng hệ mở, mét dài tủ gợi ý.\n6. Ba lỗi thường gặp khi làm Japandi (dùng quá nhiều gỗ tối, thiếu ánh sáng, thiếu điểm nhấn thô mộc) và cách tránh.\n\nGiọng văn: như một buổi tư vấn thật, cụ thể, có con số.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "concept",
+   "japandi",
+   "apartment",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-2",
+  "title": "Prompt render 3D phòng khách (dùng cho AI tạo ảnh)",
+  "content": "Bạn là chuyên gia viết prompt cho AI tạo ảnh kiến trúc. Tôi cần prompt render nội thất phòng khách theo mô tả sau: phong cách [HIỆN ĐẠI/JAPANDI/INDOCHINE/TÂN CỔ ĐIỂN], diện tích [DIỆN TÍCH], tông màu [TÔNG MÀU], vật liệu chính [GỖ ĐÁ VẢI KIM LOẠI], ánh sáng [SÁNG TỰ NHIÊN BUỔI SÁNG/CHIỀU TÀ], góc máy [GÓC RỘNG/NGANG TẦM MẮT].\n\nHãy viết:\n1. Prompt tiếng Anh hoàn chỉnh 120–160 từ, mô tả: không gian, bố cục đồ nội thất, vật liệu, màu, ánh sáng, ống kính (ví dụ 24mm), thời điểm trong ngày, không khí tổng thể.\n2. Prompt tiếng Việt tương đương để dùng với công cụ hỗ trợ tiếng Việt.\n3. Bộ tham số gợi ý: tỉ lệ khung (3:2 hoặc 16:9), mức chi tiết, negative prompt (tránh: chữ, watermark, méo phối cảnh, đồ vật lộn xộn).\n4. Ba biến thể nhanh: đổi ánh sáng, đổi vật liệu, đổi tông màu — chỉ cần thay 1 cụm từ trong prompt.\n5. Mẹo để giữ đúng tỉ lệ thật của phòng (ghi kích thước phòng trong prompt).\n\nKhông thêm chữ hay logo vào ảnh.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "render",
+   "image-prompt",
+   "3d",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-3",
+  "title": "Thiết kế ánh sáng 3 lớp cho căn hộ nhỏ",
+  "content": "Bạn là chuyên gia chiếu sáng nội thất. Thiết kế hệ chiếu sáng cho căn hộ [DIỆN TÍCH] m² gồm [CÁC PHÒNG], trần cao [CHIỀU CAO] m, phong cách [PHONG CÁCH].\n\nYêu cầu:\n1. Bảng chiếu sáng 3 lớp cho từng phòng: lớp tổng (downlight/tán quang), lớp điểm (spotlight, hắt tường), lớp trang trí (đèn thả, đèn bàn, LED dây) — số lượng, công suất, nhiệt độ màu (K), vị trí.\n2. Quy tắc chọn nhiệt độ màu: phòng khách 3000–3500K, bếp 4000K, phòng ngủ 2700–3000K — nêu lý do và chỗ nên dùng 2 loại trong cùng phòng.\n3. Sơ đồ bố trí đèn theo mét (khoảng cách giữa các đèn so với chiều cao trần), tránh chói khi ngồi xem TV.\n4. Cách dùng đèn để \"nới rộng\" không gian nhỏ: hắt trần, hắt chân tường, gương phản chiếu.\n5. Danh mục thiết bị kèm giá tham khảo và phương án tiết kiệm điện (đèn LED, công tắc 2 chiều, dimmer).\n6. 5 lỗi chiếu sáng phổ biến (quá nhiều điểm sáng, một nguồn duy nhất, sai nhiệt độ màu, đèn lộ, thiếu đèn đọc sách).\n\nTrình bày bảng, có ghi chú an toàn điện.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "lighting",
+   "design",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-4",
+  "title": "Báo giá thi công nội thất theo hạng mục & vật liệu",
+  "content": "Bạn là quản lý dự án nội thất. Lập báo giá thi công nội thất cho căn hộ [DIỆN TÍCH] m², [SỐ PHÒNG NGỦ], vật liệu chính [MDF AN CƯỜNG PHỦ LAMINATE / ACRYLIC / VENEER], mức đầu tư [NGÂN SÁCH].\n\nĐầu ra:\n1. Bảng báo giá theo hạng mục: tủ bếp trên/dưới, tủ áo, giường, tủ đầu giường, kệ TV, bàn làm việc, tủ giày, vách trang trí — cột: kích thước | vật liệu | đơn vị (m² hoặc md) | đơn giá | thành tiền.\n2. Phân biệt rõ 3 gói: cơ bản (MDF phủ melamine), trung cấp (MDF chống ẩm phủ laminate), cao cấp (acrylic/veneer, phụ kiện Hafele/Blum) — chênh lệch giá và tuổi thọ.\n3. Chi phí ngoài phần gỗ: đá mặt bếp, kính ốp, điện – nước, sơn, vệ sinh, vận chuyển, lắp đặt — % trên tổng.\n4. Khoảng giá tham khảo: tủ bếp laminate MDF An Cường khoảng 4–6 triệu/md tuỳ phụ kiện; nêu rõ cần xác nhận lại theo thời điểm.\n5. Điều khoản hợp đồng nên có: thời gian thi công, bảo hành (bao nhiêu năm cho gỗ, bao nhiêu cho phụ kiện), xử lý phát sinh, thanh toán theo mốc.\n6. 5 điểm dễ bị \"ăn bớt\" trong thi công nội thất và cách kiểm tra.\n\nLuôn dùng bảng, đơn vị VNĐ, có tổng cộng và dự phòng 5–10%.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "quotation",
+   "budget",
+   "construction",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-5",
+  "title": "Tối ưu diện tích căn 52m² 2 phòng ngủ",
+  "content": "Bạn là kiến trúc sư nội thất chuyên căn hộ nhỏ. Căn hộ [DIỆN TÍCH] m², [SỐ PHÒNG NGỦ], gia đình [SỐ NGƯỜI: vợ chồng + 1 con nhỏ], nhu cầu đặc biệt [LÀM VIỆC TẠI NHÀ/ NUÔI MÈO/ NHIỀU ĐỒ].\n\nHãy:\n1. Đề xuất 3 phương án bố trí công năng khác nhau (kèm mô tả layout bằng toạ độ tương đối: phòng nào ở đâu, diện tích).\n2. Chấm điểm từng phương án theo 5 tiêu chí: lưu trữ, ánh sáng, luồng đi, riêng tư, chi phí.\n3. Giải pháp nội thất đa năng cụ thể: giường có ngăn kéo, bàn ăn gấp, kệ treo tường, tủ âm tường, vách ngăn di động — kích thước gợi ý.\n4. Bảng mét dài tủ cần có cho từng khu vực và cách tính.\n5. Cách tận dụng chiều cao trần và các \"khoảng chết\" (dưới cầu thang, trên cửa, ban công).\n6. Ước tính chi phí nội thất cho từng phương án.\n\nKết luận: chọn phương án nào và vì sao.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "small-space",
+   "layout",
+   "apartment",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-6",
+  "title": "So sánh vật liệu nội thất: MDF, laminate, acrylic, veneer",
+  "content": "Bạn là chuyên gia vật liệu nội thất. So sánh giúp tôi các loại vật liệu làm nội thất gỗ cho [HẠNG MỤC: tủ bếp / tủ áo / toàn bộ căn hộ] tại [KHU VỰC KHÍ HẬU: nóng ẩm miền Nam / miền Bắc].\n\nĐầu ra:\n1. Bảng so sánh: MDF thường, MDF chống ẩm, HDF, plywood, laminate, melamine, acrylic, veneer — cột: cấu tạo | ưu điểm | nhược điểm | chống ẩm | chống trầy | tuổi thọ | giá/m² tương đối | phù hợp cho.\n2. Khuyến nghị theo ngân sách và vị trí: khu vực ẩm (bếp, WC) nên dùng gì; mặt dựng cần bóng nên dùng gì; chỗ dễ va đập nên dùng gì.\n3. Cách nhận biết vật liệu thật khi nghiệm thu: xem cạnh cắt, mùi, trọng lượng, tem chống ẩm, độ dày (thường 17–18mm), mã màu.\n4. Các bẫy hay gặp: \"MDF chống ẩm\" nhưng lõi thường, laminate giả, veneer dán công nghiệp giá rẻ.\n5. Bảng chi phí so sánh cho một tủ bếp 3m dài ở từng loại vật liệu.\n\nKết luận rõ: chọn vật liệu nào cho hạng mục của tôi và vì sao.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "material",
+   "comparison",
+   "mdf",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-7",
+  "title": "Moodboard & bảng màu theo phong cách",
+  "content": "Bạn là giám đốc sáng tạo nội thất. Tạo moodboard bằng mô tả cho phong cách [PHONG CÁCH: Japandi / Wabi-sabi / Indochine / Hiện đại tối giản / Bắc Âu], áp dụng cho [LOẠI KHÔNG GIAN: phòng khách / toàn căn hộ], diện tích [DIỆN TÍCH].\n\nYêu cầu:\n1. Bảng màu 6 mã: màu nền (60%), màu chủ đạo (30%), màu nhấn (10%) — kèm mã HEX, tên gọi, vị trí áp dụng.\n2. Bảng vật liệu 6 mục: sàn, tường, trần, đồ gỗ, vải, phụ kiện — chọn loại, bề mặt (mờ/bóng/thô), lý do.\n3. Mô tả chi tiết 8 hình ảnh tham chiếu cần tìm (để tôi tìm trên Pinterest): mô tả bằng từ khoá cụ thể.\n4. Quy tắc phối: tỉ lệ vàng cho nội thất, nguyên tắc 3 tầng màu, cách dùng 1 điểm nhấn duy nhất.\n5. Danh sách 5 lỗi phối màu hay gặp và cách kiểm tra bằng mắt (chụp ảnh đen trắng để xem tương phản).\n6. Bộ 3 câu prompt ngắn (tiếng Anh) để tạo ảnh minh hoạ moodboard.\n\nTrình bày có bảng, dễ dùng như checklist khi đi chọn vật liệu.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "moodboard",
+   "color",
+   "style",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-8",
+  "title": "Bố trí công năng nhà ống 4×16m",
+  "content": "Bạn là kiến trúc sư chuyên nhà ống. Nhà tôi [CHIỀU RỘNG] × [CHIỀU DÀI] m, [SỐ TẦNG], mặt tiền [HƯỚNG], gia đình [SỐ NGƯỜI], có [NHU CẦU: kinh doanh nhỏ / gara / sân vườn].\n\nHãy:\n1. Đề xuất phân bố công năng theo từng tầng dạng bảng: tầng | khu vực | diện tích | ghi chú.\n2. Giải pháp xử lý nhược điểm nhà ống: thiếu sáng – thiếu gió (giếng trời, sân sau, lam thông gió), bí mặt tiền, cầu thang chiếm diện tích (vị trí tối ưu).\n3. Sơ đồ lưu thông: đường đi chính, khoảng cách tối thiểu, cách tránh cắt qua phòng ngủ.\n4. Bố trí nội thất chính cho 3 phòng quan trọng (khách, bếp, ngủ master) với kích thước đồ gợi ý.\n5. Hai phương án: ở thuần và kết hợp kinh doanh (tầng 1), nêu ưu/nhược và chi phí chênh lệch.\n6. 5 lỗi thiết kế nhà ống hay gặp và cảnh báo.\n\nTrình bày như một bản thuyết minh ngắn gọn, có số liệu.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "townhouse",
+   "layout",
+   "design",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-9",
+  "title": "Thiết kế phòng ngủ master 15m²",
+  "content": "Bạn là nhà thiết kế nội thất. Thiết kế phòng ngủ master [DIỆN TÍCH] m², [CÓ/KHÔNG có WC riêng], cửa sổ [VỊ TRÍ], ngân sách [NGÂN SÁCH], phong cách [PHONG CÁCH], nhu cầu [ĐỌC SÁCH / LÀM VIỆC / CÓ EM BÉ].\n\nYêu cầu:\n1. Ba phương án bố trí giường – tủ áo – bàn làm việc (kèm mô tả hướng đặt, khoảng cách lối đi tối thiểu 60–70cm).\n2. Bảng nội thất chi tiết: món | kích thước | vật liệu | giá tham khảo | ưu tiên.\n3. Thiết kế ánh sáng phòng ngủ: đèn trần, đèn đầu giường, đèn đọc sách, đèn hắt — nhiệt độ màu, công suất, vị trí, cách bố trí công tắc.\n4. Cách tạo cảm giác thư giãn: màu sắc, vải, mùi hương, cách che nắng (rèm 2 lớp, đúng chiều).\n5. Giải pháp lưu trữ cho phòng nhỏ: tủ cao sát trần, gầm giường, vách đầu giường tích hợp.\n6. 5 lỗi khiến phòng ngủ khó ngủ (đèn lộ, màu quá nóng, giường kê dưới cửa sổ, thiếu chỗ để đồ, TV trong phòng).\n\nTrình bày có bảng và thứ tự thi công.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "bedroom",
+   "design",
+   "master",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-10",
+  "title": "Tiến độ thi công nội thất 25 ngày",
+  "content": "Bạn là quản lý thi công nội thất. Lập tiến độ thi công nội thất cho căn hộ [DIỆN TÍCH] m² với các hạng mục: [LIỆT KÊ: tủ bếp, tủ áo, giường, kệ TV, vách, sơn, rèm, điện].\n\nYêu cầu:\n1. Tiến độ dạng bảng theo ngày: ngày | công việc | nhân lực | vật tư cần có | phụ thuộc công việc trước | mốc kiểm tra.\n2. Nguyên tắc thứ tự: đo đạc → sản xuất tại xưởng (chạy song song) → lắp đặt theo phòng → hoàn thiện → vệ sinh → bàn giao. Nêu rõ việc nào làm song song để rút ngắn.\n3. Các mốc nghiệm thu: đo lại thực tế, duyệt màu vật liệu, lắp khô, lắp chính thức, chạy thử thiết bị.\n4. Rủi ro chậm tiến độ (sai kích thước, thiếu phụ kiện, chờ đá, chờ điện) và cách dự phòng theo ngày.\n5. Cách phối hợp với thi công cơ bản (điện nước, sơn) để không phải tháo ra làm lại.\n6. Danh sách kiểm tra trước khi mời chủ nhà bàn giao.\n\nGhi chú: không tính ngày nghỉ Chủ nhật, dự phòng 2 ngày buffer.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "schedule",
+   "construction",
+   "project-management",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-11",
+  "title": "Cải tạo bếp chữ L / U / I: chọn phương án",
+  "content": "Bạn là nhà thiết kế bếp. Tôi có không gian bếp [DIỆN TÍCH] m², dạng [VUÔNG/CHỮ NHẬT/HẸP DÀI], cửa sổ [VỊ TRÍ], gia đình [SỐ NGƯỜI], nhu cầu nấu [TẦN SUẤT NẤU], ngân sách [NGÂN SÁCH].\n\nHãy:\n1. So sánh 3 layout: chữ I, chữ L, chữ U (và đảo bếp nếu đủ chỗ) theo bảng: diện tích tối thiểu | ưu điểm | nhược điểm | phù hợp với | chi phí tương đối.\n2. Áp dụng nguyên tắc tam giác bếp (bồn rửa – bếp nấu – tủ lạnh): khoảng cách hợp lý, cách kiểm tra layout hiện tại.\n3. Bảng kích thước chuẩn: chiều cao mặt bếp (theo chiều cao người dùng), khoảng cách tủ trên – mặt bếp – chậu rửa – máy hút mùi, độ sâu tủ.\n4. Danh mục thiết bị và vật liệu nên đầu tư (đá mặt bếp, chậu, vòi, hút mùi, phụ kiện tủ) kèm giá tham khảo và mức ưu tiên.\n5. Giải pháp lưu trữ cho bếp nhỏ: ngăn kéo, hệ nâng, tủ góc xoay, kệ treo.\n6. 6 lỗi thiết kế bếp hay gặp và cách tránh.\n\nKết luận: chọn layout nào cho không gian của tôi và vì sao.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "kitchen",
+   "layout",
+   "renovation",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-12",
+  "title": "Góc làm việc tại nhà (WFH) gọn và đúng tư thế",
+  "content": "Bạn là chuyên gia thiết kế không gian làm việc tại nhà. Tôi có [DIỆN TÍCH/LOẠI KHÔNG GIAN: góc phòng khách / phòng ngủ / ban công], làm [NGHỀ], ngân sách [NGÂN SÁCH], cần [MÀN HÌNH/2 MÀN HÌNH, HỌP ONLINE].\n\nYêu cầu:\n1. Ba phương án bố trí góc làm việc (kèm hướng ngồi, hướng sáng, vị trí ổ cắm, khoảng cách tối thiểu).\n2. Bảng nội thất – thiết bị: bàn (kích thước theo nhu cầu), ghế (yêu cầu công thái học), kệ, đèn, giá đỡ màn hình, ổ điện — giá tham khảo từng món.\n3. Thiết lập công thái học: chiều cao bàn – ghế – màn hình, góc khuỷu tay, khoảng cách mắt – màn hình, cách đặt chân.\n4. Ánh sáng và phông nền khi họp online: nguồn sáng chính, tránh ngược sáng, góc đặt camera.\n5. Cách giảm bừa bộn: quản lý dây, hộc tủ, quy tắc \"mặt bàn trống\".\n6. Bộ 4 prompt ngắn (tiếng Anh) để tạo ảnh minh hoạ góc làm việc theo phong cách tôi chọn.\n\nTrình bày bảng và checklist lắp đặt.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "home-office",
+   "wfh",
+   "ergonomics",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-13",
+  "title": "Checklist nghiệm thu & bàn giao nội thất",
+  "content": "Bạn là giám sát nội thất. Lập checklist nghiệm thu nội thất trước khi thanh toán đợt cuối.\n\nHạng mục: [LIỆT KÊ: tủ bếp, tủ áo, giường, kệ TV, vách, sơn, rèm, thiết bị bếp].\n\nYêu cầu:\n1. Checklist theo từng nhóm: kích thước và độ vuông góc, bề mặt (trầy, bong, lệch màu), cạnh và đường chỉ, phụ kiện (ray trượt, bản lề, tay nắm, giảm chấn), cửa và khe hở, điện (đèn, ổ cắm trong tủ), silicon và keo, vệ sinh.\n2. Tiêu chí đạt cụ thể: khe hở cho phép bao nhiêu mm, độ dày vật liệu, số lần mở/đóng thử, tải trọng ngăn kéo.\n3. Cách phát hiện lỗi bị che: soi đèn chéo, mở hết các cánh, kiểm tra mặt sau và đáy, chạm tay vào cạnh dán.\n4. Mẫu biên bản nghiệm thu có 3 mức: đạt – sửa trong [X] ngày – không đạt phải làm lại.\n5. Điều khoản giữ lại [%] giá trị đến khi hết lỗi và thời hạn bảo hành từng nhóm (gỗ, phụ kiện, đá, thiết bị).\n6. Danh sách hồ sơ cần nhận: bản vẽ hoàn công, phiếu bảo hành, danh mục vật liệu đã dùng, thông tin liên hệ bảo trì.\n\nDùng được ngay ngoài công trình, câu ngắn, dễ tick.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "inspection",
+   "handover",
+   "checklist",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-14",
+  "title": "Phân bổ ngân sách 150 triệu cho căn 70m²",
+  "content": "Bạn là chuyên viên tư vấn nội thất. Tôi có [NGÂN SÁCH] cho nội thất căn hộ [DIỆN TÍCH] m², [SỐ PHÒNG NGỦ], mức hoàn thiện mong muốn [CƠ BẢN/TỐT].\n\nHãy:\n1. Phân bổ ngân sách theo nhóm, dạng bảng % và số tiền: đồ gỗ đóng mới, đồ mua sẵn (sofa, bàn ăn, nệm), thiết bị bếp – vệ sinh, đèn, rèm, trang trí, điện – nước, dự phòng.\n2. Danh mục mua sắm ưu tiên 1 (bắt buộc), 2 (nên có), 3 (làm sau) — kèm giá tham khảo để thấy tổng có khớp ngân sách không.\n3. Ba kịch bản: tiết kiệm tối đa, cân bằng, nâng cấp — ngân sách tương ứng và khác biệt trải nghiệm.\n4. Cách tiết kiệm thông minh: chỗ nào đóng mới, chỗ nào mua sẵn, chỗ nào dùng đồ cũ cải tạo, mua theo đợt.\n5. Cảnh báo các khoản dễ vượt ngân sách (đá bếp, phụ kiện cao cấp, rèm, đèn trang trí) và cách đặt giới hạn.\n6. Mẫu bảng theo dõi chi tiêu theo tuần.\n\nKết luận: kế hoạch mua sắm 3 đợt với số tiền từng đợt.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "budget",
+   "planning",
+   "shopping",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-15",
+  "title": "Phối màu nội thất theo xu hướng hiện hành",
+  "content": "Bạn là chuyên gia màu sắc nội thất. Tư vấn phối màu cho [LOẠI KHÔNG GIAN], phong cách [PHONG CÁCH], ánh sáng tự nhiên [NHIỀU/ÍT], hướng [HƯỚNG], sở thích [MÀU YÊU THÍCH / MÀU CẦN TRÁNH].\n\nYêu cầu:\n1. Ba phương án bảng màu hoàn chỉnh, mỗi phương án: màu nền | màu chủ đạo | màu nhấn | màu kim loại | mã HEX | cảm giác mang lại.\n2. Xu hướng đang được ưa chuộng: gam màu đất (be, nâu đất, terracotta), xanh olive – xanh sâu, kem ấm; nêu ưu/nhược của từng gam khi dùng ở khí hậu nóng ẩm Việt Nam.\n3. Cách áp dụng tỉ lệ 60-30-10 vào nội thất thật (sơn tường, đồ gỗ, vải, phụ kiện).\n4. Ảnh hưởng của ánh sáng: màu sẽ trông khác nhau thế nào ở hướng Đông/Tây/Bắc/Nam — cách chọn an toàn.\n5. Cách kiểm tra trước khi sơn: sơn mẫu 1m², xem 3 thời điểm trong ngày, so với màu đồ gỗ và đá hiện có.\n6. 5 lỗi phối màu phổ biến và cách sửa nhanh không cần làm lại.\n\nTrình bày bảng, kết luận rõ phương án nên chọn.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "color",
+   "trend",
+   "styling",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "noithat-vi-16",
+  "title": "Brief gửi xưởng sản xuất nội thất",
+  "content": "Bạn là quản lý dự án nội thất. Giúp tôi viết brief (yêu cầu sản xuất) gửi xưởng để tránh làm sai.\n\nThông tin: hạng mục [LIỆT KÊ], vật liệu [LOẠI], phụ kiện [THƯƠNG HIỆU/MÃ], màu [MÃ MÀU], kích thước [SỐ ĐO THỰC TẾ TẠI CÔNG TRÌNH], thời hạn [NGÀY], ngân sách [NGÂN SÁCH].\n\nYêu cầu brief có 8 phần:\n1. Thông tin dự án và đầu mối liên hệ, mốc thời gian.\n2. Danh mục hạng mục kèm bảng kích thước chi tiết (D × R × C, độ dày, số ngăn kéo/cánh, hướng mở).\n3. Vật liệu: cốt, bề mặt, độ dày, chỉ cạnh, mã màu; phụ kiện kèm mã hàng cụ thể (không ghi \"loại tốt\").\n4. Bản vẽ cần xưởng gửi duyệt trước khi sản xuất: phối cảnh, triển khai từng tấm, chi tiết liên kết.\n5. Tiêu chuẩn kỹ thuật: dung sai kích thước, yêu cầu về keo, độ ẩm gỗ, xử lý cạnh, chống ẩm đáy tủ.\n6. Đóng gói – vận chuyển – lắp đặt: ai chịu trách nhiệm, thời gian, bảo vệ bề mặt khi thi công.\n7. Nghiệm thu và bảo hành: tiêu chí đạt, thời hạn bảo hành, xử lý lỗi.\n8. Điều khoản phạt tiến độ và phát sinh.\n\nKết thúc bằng checklist 6 việc phải xác nhận bằng văn bản với xưởng trước khi họ cắt tấm đầu tiên.",
+  "category": "Nội thất",
+  "tags": [
+   "interior",
+   "manufacturing",
+   "brief",
+   "procurement",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ }
+]

@@ -1,0 +1,322 @@
+[
+ {
+  "id": "suckhoe-vi-1",
+  "title": "Lịch tập 4 tuần giảm mỡ tại nhà",
+  "content": "Vai trò: bạn là huấn luyện viên thể hình (PT) có chứng chỉ, chuyên lập kế hoạch tập luyện an toàn cho người bận rộn.\n\nHồ sơ của tôi: [TUỔI], [GIỚI TÍNH], [CHIỀU CAO] cm, [CÂN NẶNG] kg, mục tiêu giảm [SỐ KG] trong [SỐ TUẦN], hiện tại tập [SỐ BUỔI/TUẦN], có bệnh lý/đau mạn tính [CÓ/KHÔNG, CHI TIẾT], dụng cụ có sẵn [TẠ ĐƠN/ DÂY KHÁNG LỰC/ KHÔNG CÓ GÌ].\n\nHãy lập:\n1. Lịch tập 4 tuần dạng bảng: tuần | thứ | bài tập | số hiệp × số lần | nghỉ | cường độ (thang RPE 1–10) | thời lượng.\n2. Nguyên tắc tăng tiến: tuần 1 tuần 2 tiến bộ thế nào, tuần 3 deload ra sao, tuần 4 đánh giá.\n3. Danh sách 12 động tác theo nhóm cơ, có phiên bản dễ/khó hơn cho tại nhà.\n4. Khởi động 7 phút và giãn cơ 5 phút mẫu.\n5. Cách tự đánh giá kết quả không cần phòng gym (ảnh, số đo, quần áo, chỉ số sức bền).\n6. Cảnh báo an toàn: dấu hiệu phải dừng tập, lỗi kỹ thuật hay gặp, ai cần khám tim mạch trước khi tập.\n\nRàng buộc: không khuyến khích nhịn ăn, không hứa hẹn giảm cân nhanh, mọi kế hoạch tập khi có bệnh lý cần bác sĩ xác nhận.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "fitness",
+   "weight-loss",
+   "plan",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-2",
+  "title": "Thực đơn eat clean 7 ngày cho người Việt",
+  "content": "Vai trò: bạn là chuyên gia dinh dưỡng lâm sàng sử dụng nguyên liệu Việt Nam phổ biến.\n\nHồ sơ: [TUỔI], [GIỚI TÍNH], [CÂN NẶNG] kg, [CHIỀU CAO] cm, mục tiêu lượng calo mục tiêu [VÍ DỤ 1300–1500 kcal/ngày], dị ứng/kiêng [LIỆT KÊ], ngân sách ăn [SỐ TIỀN/NGÀY], thời gian nấu [PHÚT/BỮA], có ăn cơm ngoài [CÓ/KHÔNG].\n\nYêu cầu:\n1. Bảng thực đơn 7 ngày × 3 bữa chính + 1 bữa phụ: ngày | bữa | món | khẩu phần (gram/bát) | calo ước tính.\n2. Tổng mỗi ngày: calo, protein (g), carb (g), chất béo (g), chất xơ (g) — có dòng trung bình cả tuần.\n3. Danh mục đi chợ theo ngày và theo tuần, có giá tham khảo, ưu tiên nguyên liệu dễ mua ở chợ Việt.\n4. Bộ 6 bữa ngoài/nhà hàng an toàn với mục tiêu calo (cách gọi món, phần nên bỏ).\n5. Mẹo chuẩn bị trước (meal prep 2 giờ cho cả tuần) và cách bảo quản.\n6. Nêu rõ 4 điều chỉnh nếu tôi thấy đói quá nhiều, tập nặng hơn, đi tiệc, hoặc sụt cân quá nhanh.\n\nRàng buộc: không quảng cáo thực phẩm bổ sung, không dùng nguyên liệu khó tìm, calo là ước tính và cần bác sĩ/chuyên gia dinh dưỡng tư vấn nếu có bệnh nền.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "nutrition",
+   "eat-clean",
+   "meal-plan",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-3",
+  "title": "Tính TDEE và macro cá nhân hoá",
+  "content": "Vai trò: bạn là chuyên viên dinh dưỡng thành tích thể thao, giải thích dễ hiểu cho người không chuyên.\n\nHồ sơ: [TUỔI], [GIỚI TÍNH], [CÂN NẶNG] kg, [CHIỀU CAO] cm, mức vận động [MÔ TẢ: văn phòng ngồi nhiều / lao động chân tay / tập 3 buổi/tuần / tập 6 buổi/tuần], mục tiêu [GIẢM MỠ / GIỮ CÂN / TĂNG CƠ], chế độ ăn [ĂN THƯỜNG / CHAY / THUẦN CHAY / KHÔNG GLUTEN].\n\nHãy:\n1. Tính BMR theo công thức Mifflin-St Jeor, giải thích từng biến.\n2. Tính TDEE với hệ số vận động phù hợp, nêu dải sai số.\n3. Xác định lượng calo mục tiêu: thâm hụt/thặng dư hợp lý theo mục tiêu (không quá 20–25%), dự báo tốc độ thay đổi cân nặng/tuần.\n4. Phân bổ macro theo 3 phương án (cân bằng, giàu đạm, carb thấp hơn) kèm gram/ngày và lý do chọn.\n5. Quy đổi thực tế: mỗi ngày ăn bao nhiêu bát cơm, bao nhiêu gram thịt/cá, trứng, sữa, rau — dùng ví dụ món Việt.\n6. Cách theo dõi: cân hàng tuần cùng điều kiện, ảnh, số đo, khi nào cần điều chỉnh calo.\n\nGhi rõ: đây là ước tính dựa trên công thức, không thay thế tư vấn của bác sĩ/chuyên gia dinh dưỡng.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "nutrition",
+   "tdee",
+   "macro",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-4",
+  "title": "Bài tập giảm đau lưng cho dân văn phòng",
+  "content": "Vai trò: bạn là kỹ thuật viên phục hồi chức năng. Lưu ý ngay từ đầu: nếu đau kèm tê chân, mất sức, sốt, hoặc sau chấn thương — phải đi khám bác sĩ trước, không tự tập.\n\nHồ sơ: [SỐ GIỜ NGỒI/NGÀY], đau vùng [CỔ/LƯNG DƯỚI/VAI], thời gian đau [BAO LÂU], mức đau 1–10, có [THOÁT VỊ ĐĨA/THOÁI HOÁ ĐÃ CHẨN ĐOÁN KHÔNG].\n\nHãy đưa ra:\n1. Bộ 8 bài tập giảm đau lưng theo thứ tự nên tập: tên bài | mục đích | số lần/thời gian giữ | lưu ý kỹ thuật | bài nào phải bỏ nếu đau tăng.\n   Gợi ý nhóm: kéo căng ngực, nhún vai, xoay cột sống, mèo-bò, cầu (bridge), nhân sư (sphinx), người chim (bird-dog), gập hông đứng.\n2. Lịch tập 10 phút/ngày chia sáng – giờ nghỉ trưa – tối.\n3. 6 điều chỉnh tư thế bàn làm việc có số đo cụ thể (chiều cao màn hình, góc khuỷu, chân đặt trên sàn).\n4. Quy tắc \"đau tăng thì giảm liều\" và dấu hiệu cảnh báo phải dừng hẳn.\n5. Cách dùng bàn đứng, gối kê, con lăn cơ và giới hạn của chúng.\n\nRàng buộc: đây là hướng dẫn tập luyện tham khảo, không phải chẩn đoán y khoa.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "back-pain",
+   "mobility",
+   "office",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-5",
+  "title": "Kế hoạch vệ sinh giấc ngủ 14 ngày",
+  "content": "Vai trò: bạn là chuyên gia hành vi giấc ngủ (sleep coach). Tôi mất ngủ/ngủ không sâu, hiện trạng: [GIỜ ĐI NGỦ – GIỜ THỨC], [SỐ GIỜ NGỦ THỰC TẾ], [SỐ LẦN THỨC GIẤC], [UỐNG CÀ PHÊ LÚC NÀO], [THỜI GIAN DÙNG ĐIỆN THOẠI TRƯỚC NGỦ], [MỨC CĂNG THẲNG].\n\nHãy lập kế hoạch 14 ngày:\n1. Nguyên tắc vệ sinh giấc ngủ cốt lõi: giờ đi ngủ/thức cố định, chỉ dùng giường để ngủ, tránh thiết bị điện tử trước ngủ 60 phút, phòng tối – mát – yên, hạn chế caffeine sau [GIỜ], tránh rượu, vận động ban ngày, ánh sáng buổi sáng.\n2. Bảng 14 ngày: ngày | mục tiêu thay đổi | hành động cụ thể | giờ thực hiện | cách ghi lại.\n3. Thang đo tự đánh giá mỗi sáng (1–5: dễ ngủ, sâu giấc, tỉnh táo ban ngày) và biểu đồ theo dõi đơn giản.\n4. Xử lý 3 tình huống: nằm 30 phút không ngủ được, thức giấc giữa đêm, ngủ bù cuối tuần — nên làm gì.\n5. Kịch bản giảm dần caffeine và thời gian dùng điện thoại (tuần 1 – tuần 2).\n6. Dấu hiệu cần đi khám (ngủ ngáy kèm ngưng thở, buồn ngủ quá mức ban ngày, mất ngủ > 3 tuần).\n\nKhông kê thuốc, không khuyến cáo thực phẩm chức năng.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "sleep",
+   "habit",
+   "recovery",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-6",
+  "title": "Thực đơn tăng cơ tiết kiệm cho người tập gym",
+  "content": "Vai trò: bạn là chuyên gia dinh dưỡng thể thao, tối ưu theo ngân sách sinh viên/người đi làm thu nhập trung bình tại Việt Nam.\n\nHồ sơ: [CÂN NẶNG] kg, mục tiêu tăng [SỐ KG] cơ, tập [SỐ BUỔI/TUẦN], ngân sách ăn [SỐ TIỀN/NGÀY], có dùng [WHEY/KHÔNG], dị ứng [LIỆT KÊ].\n\nYêu cầu:\n1. Mục tiêu calo và protein/ngày (gram/kg cân nặng), giải thích ngắn.\n2. Bảng thực đơn 7 ngày × 4 bữa với món Việt rẻ – giàu đạm: trứng, ức gà, cá basa, thịt bò xay, đậu hũ, sữa, sữa chua, đậu đen, lạc.\n3. Bảng chi phí từng ngày và cả tuần, so sánh có/không dùng whey.\n4. Thời điểm ăn quanh buổi tập: trước 60–90 phút, sau tập trong 2 giờ, bữa tối — nêu ví dụ cụ thể.\n5. Danh sách 8 món ăn vặt giàu đạm rẻ tiền, dễ mang đi.\n6. Cách theo dõi tiến bộ: cân nặng, số đo, tạ tăng, ảnh 4 tuần/lần; khi nào cần tăng calo.\n\nRàng buộc: thực phẩm bình dân, dễ mua ở chợ/siêu thị Việt, không quảng cáo sản phẩm bổ sung.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "nutrition",
+   "muscle-gain",
+   "budget",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-7",
+  "title": "Kế hoạch đi bộ 10.000 bước & tăng vận động hằng ngày",
+  "content": "Vai trò: bạn là huấn luyện viên vận động cộng đồng, chuyên giúp người ít vận động bắt đầu an toàn.\n\nHồ sơ: hiện tại trung bình [SỐ BƯỚC/NGÀY], [TUỔI], có đau khớp/ chấn thương [CHI TIẾT], thời gian rảnh [KHUNG GIỜ], môi trường [KHU PHỐ/ CÔNG VIÊN/ MÁY CHẠY].\n\nHãy:\n1. Kế hoạch tăng dần 4 tuần: tuần | mục tiêu bước/ngày | thời gian | số buổi | ghi chú an toàn.\n2. Cách chia nhỏ bước trong ngày (sáng – trưa – tối) để không cần khối thời gian lớn; bảng \"bước ở đâu\": đi chợ, cầu thang, gửi xe xa, họp đi bộ.\n3. Kỹ thuật đi bộ đúng: tư thế, sải chân, nhịp thở, giày phù hợp, cách tăng tốc độ.\n4. Cách tăng NEAT ngoài đi bộ: đứng khi làm việc, giãn cách mỗi giờ, việc nhà.\n5. Theo dõi: chỉ số nên ghi (bước, phút vận động mạnh, nhịp tim nghỉ), cách đọc để biết mình tiến bộ.\n6. Dấu hiệu quá sức và cách nghỉ/giảm tải.\n\nRàng buộc: khởi đầu từ mức hiện tại của tôi, không nhảy cóc; nêu rõ người có bệnh tim mạch/khớp cần hỏi bác sĩ.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "walking",
+   "habit",
+   "neat",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-8",
+  "title": "Đọc hiểu kết quả xét nghiệm máu cơ bản (tham khảo)",
+  "content": "Vai trò: bạn là điều dưỡng/bác sĩ giải thích kết quả xét nghiệm ở mức giáo dục sức khoẻ, KHÔNG chẩn đoán, KHÔNG kê đơn.\n\nKết quả của tôi (tôi sẽ dán): [DANH SÁCH CHỈ SỐ + KẾT QUẢ + ĐƠN VỊ + KHOẢNG THAM CHIẾU CỦA LABO].\n\nHãy:\n1. Bảng: chỉ số | kết quả | khoảng tham chiếu | đánh dấu cao/thấp/bình thường | nhóm chức năng (gan, thận, mỡ máu, đường huyết, công thức máu, tuyến giáp).\n2. Với mỗi chỉ số bất thường: giải thích nó phản ánh điều gì bằng ngôn ngữ dễ hiểu, 3 nguyên nhân thường gặp (sinh lý và bệnh lý), và chỉ số nào cần xem kèm.\n3. Nhóm các bất thường có liên quan với nhau và gợi ý bác sĩ chuyên khoa phù hợp để hỏi.\n4. Danh sách câu hỏi nên hỏi bác sĩ khi tái khám.\n5. Các yếu tố có thể làm sai lệch kết quả (nhịn ăn không đúng, uống rượu, tập nặng trước lấy máu, thuốc đang dùng).\n\nRàng buộc bắt buộc: mở đầu và kết thúc bằng câu \"Thông tin này chỉ mang tính tham khảo, không thay thế chẩn đoán của bác sĩ\". Không đưa ra chẩn đoán bệnh, không đề xuất thuốc hay liều lượng.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "lab-test",
+   "education",
+   "safety",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-9",
+  "title": "Quản lý căng thẳng: routine thư giãn 7 ngày",
+  "content": "Vai trò: bạn là chuyên gia tâm lý sức khoẻ (theo hướng huấn luyện thói quen, không trị liệu).\n\nHiện trạng: [MỨC CĂNG THẲNG 1–10], nguồn căng thẳng [CÔNG VIỆC/GIA ĐÌNH/TÀI CHÍNH], triệu chứng cơ thể [MẤT NGỦ/ĐAU ĐẦU/CO THẮT VAI/CẢM GIÁC BỒN CHỒN], thời gian rảnh mỗi ngày [PHÚT].\n\nHãy thiết kế:\n1. Routine 7 ngày: ngày | kỹ thuật | thời lượng | thời điểm | cách thực hiện từng bước.\n   Bao gồm: thở 4-7-8 hoặc thở hộp, thư giãn cơ tiến tiến (PMR), thiền quan sát 5 phút, đi bộ không điện thoại, viết 3 dòng biết ơn, giới hạn tin tức.\n2. Bảng \"dấu hiệu căng thẳng sớm\" để tôi tự nhận biết và can thiệp trước khi quá tải.\n3. 5 câu hỏi tự phản chiếu mỗi tuần để tìm nguyên nhân gốc.\n4. Cách thiết lập ranh giới thực tế: giờ không trả lời công việc, cách nói \"không\", quản lý thông báo.\n5. Kế hoạch 30 ngày tiếp theo và thang đo tiến bộ (1–10, ghi mỗi tối).\n6. Khi nào cần tìm chuyên gia tâm lý: nêu rõ 4 dấu hiệu cảnh báo (kéo dài > 2 tuần, ảnh hưởng ăn ngủ, không thể làm việc, ý nghĩ tiêu cực).\n\nKhông chẩn đoán bệnh lý tâm thần, không kê thuốc.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "stress",
+   "mindfulness",
+   "habit",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-10",
+  "title": "Kế hoạch uống nước và điện giải khi tập",
+  "content": "Vai trò: bạn là chuyên gia dinh dưỡng thể thao. Hãy lập kế hoạch bù nước cá nhân hoá.\n\nHồ sơ: [CÂN NẶNG] kg, môi trường tập [TRONG NHÀ/ NGOÀI TRỜI, NHIỆT ĐỘ], thời lượng buổi tập [PHÚT], cường độ [NHẸ/VỪA/NẶNG], mồ hôi [ÍT/VỪA/NHIỀU], có hay bị chuột rút/đau đầu [CÓ/KHÔNG].\n\nYêu cầu:\n1. Nhu cầu nước cơ bản/ngày theo cân nặng và cách tính thêm cho buổi tập (ml/giờ tập, % cân nặng mất đi).\n2. Cách tự kiểm tra mất nước: màu nước tiểu (thang 1–8), cân trước/sau tập, khát.\n3. Bảng kế hoạch bù nước quanh buổi tập: trước 2 giờ | trước 15 phút | trong tập (từng 15–20 phút) | sau tập.\n4. Điện giải: khi nào chỉ cần nước, khi nào cần điện giải, cách pha nước điện giải đơn giản tại nhà (công thức, liều), lưu ý về natri và đường.\n5. 5 sai lầm phổ biến: uống quá nhiều nước, uống dồn, uống đồ ngọt, bỏ qua điện giải khi mồ hôi nhiều, dùng nước tăng lực như nước bù.\n6. Cảnh báo: người có bệnh tim, thận, huyết áp phải hỏi bác sĩ trước khi dùng đồ uống điện giải.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "hydration",
+   "electrolytes",
+   "fitness",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-11",
+  "title": "Bài tập mobility 12 phút cho người ngồi nhiều",
+  "content": "Vai trò: bạn là huấn luyện viên mobility. Tôi ngồi [SỐ GIỜ/NGÀY], cứng [VÙNG: cổ – vai – hông – gối], chơi [MÔN THỂ THAO] vào cuối tuần, có [CHẤN THƯƠNG CŨ].\n\nHãy thiết kế bài mobility 12 phút:\n1. Bảng 10 động tác: thứ tự | tên | vùng tác động | thời gian/lần | lưu ý kỹ thuật | lỗi thường gặp.\n2. Cấu trúc buổi: 2 phút khởi động nhẹ – 8 phút động tác chính – 2 phút thở và thư giãn.\n3. Phiên bản 5 phút cho ngày bận và phiên bản 20 phút cho ngày nghỉ.\n4. Lịch áp dụng: sáng, giờ nghỉ trưa, trước khi chơi thể thao; nêu rõ động tác nào không nên làm ngay trước khi vận động mạnh.\n5. Cách đo tiến bộ: 3 bài test đơn giản (ngồi gập trước, xoay vai, squat sâu) đo lại mỗi 2 tuần.\n6. Cảnh báo: đau nhói, tê, hoặc đau kéo dài > 1 tuần thì dừng và đi khám.\n\nTrình bày dạng bảng in ra được, dùng cho cả người mới.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "mobility",
+   "stretching",
+   "desk",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-12",
+  "title": "Thực đơn chay đủ đạm cho người Việt",
+  "content": "Vai trò: bạn là chuyên gia dinh dưỡng chay. Tôi ăn [CHAY/THUẦN CHAY – CÓ TRỨNG SỮA HAY KHÔNG], mục tiêu [GIẢM MỠ/GIỮ CÂN/TĂNG CƠ], cân nặng [KG], ngân sách [SỐ TIỀN/NGÀY], dị ứng [ĐẬU PHỘNG/ĐẬU NÀNH...].\n\nYêu cầu:\n1. Mục tiêu calo và đạm/ngày, cách đạt đạm từ nguồn thực vật (đậu hũ, tào phớ, đậu lăng, đậu đen, đậu phộng, hạt, nấm, sữa đậu nành, yến mạch).\n2. Bảng thực đơn 7 ngày × 3 bữa + 1 bữa phụ với món Việt quen thuộc (canh chua chay, bún riêu chay, đậu hũ sốt cà, gỏi cuốn chay...), kèm calo và gram đạm mỗi bữa.\n3. Bảng ghép đạm thực vật để đủ acid amin (gạo + đậu, bắp + đậu...), giải thích ngắn.\n4. Lưu ý vi chất dễ thiếu ở người ăn chay: B12, sắt, kẽm, canxi, omega-3 — nguồn thực vật và khuyến nghị kiểm tra định kỳ.\n5. Danh mục đi chợ theo tuần và mẹo nấu nhanh cho người đi làm.\n6. Cảnh báo: trẻ nhỏ, phụ nữ mang thai, người có bệnh mạn tính cần tư vấn chuyên gia dinh dưỡng trước khi theo chế độ chay dài hạn.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "vegetarian",
+   "nutrition",
+   "vietnamese-food",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-13",
+  "title": "Giảm mỡ bụng: hiểu đúng & kế hoạch 12 tuần",
+  "content": "Vai trò: bạn là huấn luyện viên dinh dưỡng, nói thẳng vào sự thật khoa học, không hứa hẹn.\n\nTôi: [TUỔI], [GIỚI TÍNH], [CÂN NẶNG]/[CHIỀU CAO], vòng bụng [SỐ CM], sinh hoạt [MÔ TẢ], đã thử [CÁC CÁCH ĐÃ THỬ VÀ KẾT QUẢ].\n\nHãy:\n1. Giải thích 4 hiểu lầm phổ biến: tập bụng để giảm mỡ bụng, đeo đai nóng, nhịn ăn tinh bột, uống trà giảm cân — vì sao sai, bằng lý lẽ sinh lý đơn giản.\n2. Đánh giá thực tế: mỡ bụng giảm được bao nhiêu trong 12 tuần với mức thâm hụt hợp lý (0,3–0,7% cân nặng/tuần) — nêu con số kỳ vọng trung thực.\n3. Kế hoạch 12 tuần chia 3 giai đoạn: tuần 1–4 nền tảng, 5–8 tăng cường, 9–12 duy trì; mỗi giai đoạn: calo, protein, số buổi tập, bài tập chính, chỉ số theo dõi.\n4. Bài tập hiệu quả nhất tính theo chi phí thời gian: đi bộ nhanh, tập kháng lực toàn thân, HIIT mức vừa — số buổi/tuần.\n5. Bảng theo dõi tuần: cân, vòng bụng, số buổi tập, mức tuân thủ ăn uống (1–5), ghi chú.\n6. Điều kiện dừng/đi khám: nếu chóng mặt, rụng tóc, mất kinh, mất ngủ kéo dài.\n\nKhông quảng cáo thực phẩm chức năng, không cam kết kết quả cụ thể.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "fat-loss",
+   "myth-busting",
+   "plan",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-14",
+  "title": "Theo dõi chỉ số sức khoẻ hàng tuần (template)",
+  "content": "Vai trò: bạn là huấn luyện viên sức khoẻ tổng quát. Hãy tạo hệ thống theo dõi sức khoẻ đơn giản, không ám ảnh số liệu.\n\nMục tiêu của tôi: [GIẢM CÂN/TĂNG CƠ/NGỦ TỐT HƠN/GIẢM CĂNG THẲNG], thời gian theo dõi [SỐ TUẦN].\n\nYêu cầu:\n1. Bộ 8 chỉ số nên ghi, kèm tần suất và cách đo đúng điều kiện: cân nặng, vòng bụng, giấc ngủ (giờ + chất lượng), số bước, số buổi tập, nước, năng lượng ban ngày (1–5), mức đói/tuân thủ ăn (1–5).\n2. Bảng template 1 tuần (thứ 2 → chủ nhật) để tôi in ra hoặc copy vào điện thoại.\n3. Cách đọc dữ liệu: đường trung bình 7 ngày quan trọng hơn từng ngày, khi nào coi là chững, khi nào phải đổi kế hoạch.\n4. Quy tắc chống ám ảnh: chỉ cân 3 lần/tuần cùng điều kiện, không đo vòng bụng mỗi ngày, nghỉ theo dõi 1 tuần mỗi 8 tuần.\n5. Mẫu tổng kết 4 tuần: điều gì hiệu quả, điều gì bỏ, điều chỉnh tiếp theo.\n6. Danh sách 5 dấu hiệu tích cực không nằm trên cân (sức bền, giấc ngủ, tâm trạng, quần áo, khả năng leo cầu thang) — nhắc tôi nhìn vào đó.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "tracking",
+   "habit",
+   "template",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-15",
+  "title": "Routine chăm sóc da tối giản theo loại da",
+  "content": "Vai trò: bạn là chuyên viên tư vấn chăm sóc da (không phải bác sĩ da liễu). Da tôi: [LOẠI DA: dầu/khô/hỗn hợp/nhạy cảm], vấn đề chính [MỤN/THÂM/DA KHÔNG ĐỀU/LỖ CHÂN LÔNG], ngân sách [SỐ TIỀN/THÁNG], khí hậu [NÓNG ẨM/ KHÔ], đang dùng [SẢN PHẨM HIỆN TẠI].\n\nHãy:\n1. Routine tối giản 3 bước buổi sáng và 3 bước buổi tối: bước | mục đích | loại sản phẩm (hoạt chất, không cần thương hiệu) | tần suất | lưu ý.\n   Sáng: rửa – dưỡng ẩm – chống nắng. Tối: tẩy trang/rửa – hoạt chất trị vấn đề – dưỡng ẩm.\n2. Cách đưa hoạt chất vào routine an toàn: retinoid, BHA/AHA, vitamin C, niacinamide — bắt đầu tần suất nào, kết hợp nào tránh, dấu hiệu kích ứng.\n3. Bảng sản phẩm gợi ý theo 3 mức giá (tiết kiệm – trung bình – cao), ưu tiên loại dễ mua ở Việt Nam.\n4. Quy tắc chống nắng đúng: lượng dùng (2 đốt ngón tay), thời điểm bôi lại, chọn SPF/PA phù hợp khí hậu.\n5. Cách thử sản phẩm mới (test 1 vùng nhỏ 3 ngày, thêm từng bước 1 sản phẩm/tuần) và nhật ký 4 tuần để đánh giá.\n6. Khi nào phải đi bác sĩ da liễu: mụn nang, sẹo lồi, nốt ruồi thay đổi, kích ứng nặng.\n\nKhông chẩn đoán bệnh da, không kê thuốc.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "skincare",
+   "routine",
+   "minimalism",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "suckhoe-vi-16",
+  "title": "Checklist an toàn khi tập luyện tại nhà",
+  "content": "Vai trò: bạn là huấn luyện viên an toàn thể thao. Lập checklist phòng chấn thương khi tập tại nhà.\n\nBối cảnh: nhà [DIỆN TÍCH/LOẠI NHÀ], dụng cụ [TẠ ĐƠN/ DÂY/ XÀ/ KHÔNG], có trẻ nhỏ/ thú nuôi [CÓ/KHÔNG], tập [KHUNG GIỜ], trình độ [MỚI BẮT ĐẦU/ĐÃ TẬP].\n\nYêu cầu:\n1. Checklist không gian trước khi tập: khoảng trống tối thiểu, sàn chống trượt, gương/đồ dễ vỡ, ổ điện, thông gió, nhiệt độ, nước uống — dạng tick 12 mục.\n2. Checklist dụng cụ: kiểm tra tạ/dây/xà trước mỗi buổi (5 điểm), giới hạn tải của xà, cách đặt thảm.\n3. Quy tắc kỹ thuật phòng chấn thương cho 6 động tác hay gây đau tại nhà (squat, plank, push-up, deadlift tạ đơn, lunge, gập bụng): lỗi sai | hệ quả | cách sửa bằng 1 câu.\n4. Khởi động 6 phút và hạ nhiệt 4 phút mẫu.\n5. Quy trình xử lý khi chấn thương nhẹ: nguyên tắc nghỉ – chườm lạnh – băng – kê cao, thời điểm được tập lại, dấu hiệu phải đi khám.\n6. 5 thói quen gây chấn thương phổ biến (tăng tải quá nhanh, bỏ khởi động, tập khi thiếu ngủ, so sánh với người khác, tập khi đau).\n\nRàng buộc: nêu rõ hướng dẫn không thay thế đánh giá của chuyên gia y tế.",
+  "category": "Sức khoẻ",
+  "tags": [
+   "health",
+   "safety",
+   "home-workout",
+   "injury-prevention",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ }
+]

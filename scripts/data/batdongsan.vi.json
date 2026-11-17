@@ -1,0 +1,315 @@
+[
+ {
+  "id": "bds-vi-1",
+  "title": "Thẩm định pháp lý sổ hồng trước khi đặt cọc",
+  "content": "Bạn là chuyên viên pháp lý bất động sản. Tôi chuẩn bị đặt cọc mua [LOẠI BĐS] tại [ĐỊA CHỈ]. Hãy tạo checklist thẩm định pháp lý để tôi không mất tiền cọc.\n\nThông tin tôi có: [MÔ TẢ: loại giấy chứng nhận, diện tích trên sổ, diện tích thực tế, mục đích sử dụng đất, thời hạn sử dụng, chủ sở hữu, có thế chấp/ngân hàng hay không, có tranh chấp hay không].\n\nNội dung cần có:\n1. Checklist 12 điểm kiểm tra trên giấy chứng nhận (số phát hành, cơ quan cấp, mục đích sử dụng, diện tích, sơ đồ thửa, ghi chú thế chấp, trang bổ sung...).\n2. Bảng đối chiếu \"trên sổ / thực tế / rủi ro\" cho: diện tích, hiện trạng xây dựng, lối đi chung, chỉ giới quy hoạch.\n3. 5 câu hỏi bắt buộc hỏi người bán và giấy tờ cần yêu cầu (CCCD, giấy xác nhận độc thân/kết hôn, giấy ủy quyền nếu có).\n4. Điều khoản cọc an toàn: số tiền cọc hợp lý (%), điều kiện hoàn cọc, thời hạn công chứng, phạt cọc hai chiều, tài khoản nhận cọc trùng tên chủ sổ.\n5. Danh sách 8 dấu hiệu cảnh báo (sổ chung, đất nông nghiệp, quy hoạch treo, chủ hộ nhiều người, giấy tay, đang thế chấp...) — gặp là dừng.\n\nGhi chú cuối: nêu rõ cần luật sư/công chứng viên kiểm tra bản gốc trước khi ký.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "legal",
+   "due-diligence",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-2",
+  "title": "Quy trình sang tên sổ đỏ/sổ hồng: 3 bước & chi phí",
+  "content": "Bạn là chuyên viên tư vấn thủ tục nhà đất. Hãy hướng dẫn quy trình sang tên cho giao dịch [MUA BÁN/TẶNG CHO/THỪA KẾ] tại [TỈNH/THÀNH], giá trị chuyển nhượng ghi trên hợp đồng [SỐ TIỀN], loại đất [LOẠI ĐẤT].\n\nĐầu ra:\n1. Quy trình theo 3 bước lớn: đặt cọc và chuẩn bị – công chứng hợp đồng – khai thuế, nộp hồ sơ và nhận sổ. Mỗi bước: hồ sơ, cơ quan, thời gian, lưu ý.\n2. Bảng chi phí: thuế thu nhập cá nhân, lệ phí trước bạ, phí công chứng, phí thẩm định, phí cấp giấy — công thức tính và ước tính số tiền theo dữ liệu trên.\n3. Ai chịu khoản nào theo thông lệ và cách ghi trong hợp đồng để tránh tranh cãi.\n4. Mốc thời gian phải nhớ: thời hạn đăng ký biến động sau khi công chứng (theo quy định hiện hành khoảng 30 ngày) và hậu quả nếu trễ.\n5. 5 rủi ro thực tế: kê khai giá thấp, hợp đồng không rõ tài sản gắn liền, người bán chưa bàn giao sổ gốc, hồ sơ thiếu bản chính, chậm nộp thuế.\n\nTrình bày dạng timeline + bảng. Nhắc rõ mức thuế/phí và thời hạn có thể thay đổi, cần xác nhận ở cơ quan thuế và văn phòng đăng ký đất đai.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "legal",
+   "transfer",
+   "tax",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-3",
+  "title": "Mô hình dòng tiền cho thuê căn hộ 10 năm",
+  "content": "Bạn là chuyên viên phân tích đầu tư BĐS. Hãy dựng mô hình dòng tiền cho thuê.\n\nDữ liệu: giá mua [SỐ TIỀN] tỷ, vay [%] trong [SỐ NĂM] lãi suất [%/năm], giá thuê hiện tại [SỐ TIỀN]/tháng, tỷ lệ trống [%], chi phí vận hành (quản lý, bảo trì, thuế, bảo hiểm) [%] doanh thu, kỳ vọng tăng giá thuê [%/năm], kỳ vọng tăng giá bán [%/năm].\n\nYêu cầu:\n1. Bảng dòng tiền 10 năm: doanh thu | chi phí | lãi vay | gốc trả | dòng tiền ròng | dòng tiền tích luỹ.\n2. Các chỉ số: tỷ suất cho thuê gộp (tiền thuê năm / giá trị BĐS × 100%), tỷ suất ròng, cash-on-cash return, IRR 10 năm, điểm hoà vốn theo tháng.\n3. Phân tích độ nhạy: thay đổi 3 biến (giá thuê ±20%, tỷ lệ trống ±10 điểm %, lãi suất +2%) xem IRR thay đổi thế nào — dạng bảng.\n4. Nhận xét: kịch bản này có đáng đầu tư không, ngưỡng tỷ suất cho thuê tối thiểu để chấp nhận rủi ro.\n5. 5 rủi ro (pháp lý cho thuê, thuế, khách thuê, thanh khoản, lãi suất thả nổi) và cách giảm thiểu.\n\nRàng buộc: tính bằng VNĐ, làm tròn triệu đồng, nói rõ mọi giả định. Không hứa hẹn lợi nhuận.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "investment",
+   "cashflow",
+   "financial-model",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-4",
+  "title": "So sánh 3 phương án đầu tư bất động sản",
+  "content": "Bạn là cố vấn đầu tư BĐS. Tôi có ngân sách [SỐ TIỀN] tỷ, mục tiêu [DÒNG TIỀN/ TĂNG GIÁ/ Ở KẾT HỢP ĐẦU TƯ], khẩu vị rủi ro [THẤP/TRUNG BÌNH/CAO], thời gian nắm giữ [SỐ NĂM], khu vực quan tâm [KHU VỰC].\n\nHãy phân tích 3 phương án điển hình: (a) căn hộ cho thuê, (b) nhà phố/nhà trọ cho thuê, (c) đất nền/nhà xây sẵn chờ tăng giá.\n\nCho mỗi phương án:\n1. Vốn vào tối thiểu và cơ cấu vay hợp lý.\n2. Dòng tiền kỳ vọng/năm và tỷ suất cho thuê điển hình tại khu vực.\n3. Thanh khoản (thời gian bán trung bình), mức biến động giá.\n4. Rủi ro chính và cách kiểm soát.\n5. Chỉ số chấm điểm theo 6 tiêu chí (dòng tiền, tăng giá, thanh khoản, pháp lý, công sức quản lý, rủi ro) — thang 1–5.\n\nKết luận: bảng xếp hạng và khuyến nghị phù hợp với khẩu vị rủi ro của tôi, kèm 3 câu hỏi tôi phải tự trả lời trước khi xuống tiền.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "investment",
+   "comparison",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-5",
+  "title": "Định giá BĐS theo phương pháp so sánh thị trường",
+  "content": "Bạn là thẩm định viên BĐS. Hãy định giá [LOẠI BĐS] tại [ĐỊA CHỈ], diện tích [DIỆN TÍCH], [SỐ PHÒNG NGỦ], hướng [HƯỚNG], tình trạng [MỚI/CŨ], pháp lý [SỔ HỒNG/ĐANG CHỜ SỔ].\n\nDữ liệu so sánh (tôi sẽ dán): [3–5 BĐS TƯƠNG TỰ: giá, diện tích, vị trí, thời điểm bán].\n\nYêu cầu:\n1. Chuẩn hoá giá các BĐS so sánh về đơn giá/m² và điều chỉnh theo 6 yếu tố: vị trí, diện tích, tầng/hướng, tình trạng, pháp lý, thời điểm giao dịch (hệ số điều chỉnh % và lý do).\n2. Bảng tính giá trị ước tính: giá/m² điều chỉnh × diện tích, kèm khoảng giá (thấp – hợp lý – cao).\n3. Phân tích khoảng giá mua được và ngưỡng nên bước đi.\n4. Nêu 5 yếu tố có thể làm giá giảm mà người bán thường không nói (quy hoạch, lối đi chung, ngập, ồn, hướng nắng).\n5. Ghi rõ giới hạn: đây là ước lượng, cần so sánh thêm dữ liệu giao dịch thực tế và có thể thuê thẩm định giá chính thức.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "valuation",
+   "pricing",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-6",
+  "title": "Tra cứu quy hoạch: kịch bản hỏi cơ quan & đọc bản đồ",
+  "content": "Bạn là chuyên viên tư vấn quy hoạch. Tôi cần kiểm tra quy hoạch cho thửa đất [SỐ TỜ/SỐ THỬA] tại [XÃ/PHƯỜNG, QUẬN/HUYỆN, TỈNH/THÀNH], diện tích [DIỆN TÍCH] m², mục đích sử dụng hiện tại [LOẠI ĐẤT].\n\nHãy cung cấp:\n1. Quy trình tra cứu 3 lớp: bản đồ quy hoạch sử dụng đất đến năm [NĂM], quy hoạch chung/quy hoạch phân khu, đồ án quy hoạch chi tiết 1/500 — tra ở đâu, cổng thông tin nào, mất bao lâu.\n2. Mẫu văn bản yêu cầu cung cấp thông tin quy hoạch (đầy đủ: người yêu cầu, thửa đất, nội dung đề nghị, cam kết sử dụng thông tin) để gửi phòng TN&MT hoặc bộ phận một cửa.\n3. Cách đọc 6 ký hiệu quan trọng trên bản đồ quy hoạch: đất ở, đất giao thông, đất cây xanh, hành lang an toàn, chỉ giới đường đỏ, ranh quy hoạch treo.\n4. 5 câu hỏi phải hỏi cán bộ để có câu trả lời rõ ràng (đất có bị thu hồi không, khi nào, mục đích gì, hệ số sử dụng đất, có được xây dựng không).\n5. Cách ghi lại bằng chứng: số văn bản, ngày, người trả lời, ảnh chụp bản đồ, lưu hồ sơ.\n\nLưu ý: thông tin quy hoạch phải lấy bằng văn bản trả lời chính thức, không tin lời môi giới.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "planning",
+   "due-diligence",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-7",
+  "title": "Kịch bản telesales môi giới BĐS (chốt lịch xem nhà)",
+  "content": "Bạn là trưởng phòng kinh doanh BĐS. Viết kịch bản gọi điện cho khách hàng có nhu cầu [MUA/THUÊ] [LOẠI BĐS] tại [KHU VỰC], ngân sách [NGÂN SÁCH], tệp khách [KHÁCH ĐẦU TƯ/GIA ĐÌNH Ở THẬT].\n\nKịch bản gồm 4 phần, viết dạng lời thoại thực tế, câu ngắn, dễ nói:\n1. Mở đầu 15 giây: giới thiệu, lý do gọi, xin phép 2 phút — kèm 2 phiên bản (khách lạnh / khách đã biết).\n2. Khai thác nhu cầu: 8 câu hỏi theo thứ tự (mục tiêu, ngân sách, thời gian, khu vực ưu tiên, tiêu chí bắt buộc, tiêu chí loại trừ, người cùng quyết định, đã xem dự án nào).\n3. Giới thiệu sản phẩm theo công thức đặc điểm → lợi ích → bằng chứng, với 3 ví dụ áp dụng cho sản phẩm cụ thể.\n4. Xử lý 6 từ chối phổ biến: giá cao, để suy nghĩ, đang xem chỗ khác, bận, không có nhu cầu nữa, sợ pháp lý. Mỗi từ chối: xác nhận – làm rõ – trả lời – chốt bước tiếp theo.\n\nCuối cùng: mẫu tin nhắn Zalo xác nhận sau cuộc gọi và checklist 5 việc phải làm ngay sau khi kết thúc cuộc gọi.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "sales",
+   "script",
+   "telemarketing",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-8",
+  "title": "Viết tin đăng BĐS chuẩn SEO (3 biến thể)",
+  "content": "Bạn là copywriter chuyên BĐS. Viết tin đăng cho [LOẠI BĐS] tại [ĐỊA CHỈ], diện tích [DIỆN TÍCH], giá [GIÁ], đặc điểm nổi bật [LIỆT KÊ], pháp lý [TÌNH TRẠNG SỔ].\n\nYêu cầu:\n1. Ba biến thể tin đăng: (a) tin ngắn cho Facebook/Zalo (120–180 từ), (b) tin đầy đủ cho batdongsan/chotot (350–450 từ, có tiêu đề 60 ký tự, mô tả, thông số dạng bullet), (c) tin dạng \"câu chuyện\" cho khách ở thật.\n2. Mỗi biến thể: tiêu đề hấp dẫn nhưng trung thực (không dùng \"siêu phẩm\", \"rẻ nhất thị trường\" nếu không có bằng chứng), 5 lợi ích cụ thể, lý do nên xem ngay, CTA rõ ràng.\n3. Bộ từ khoá SEO tự nhiên cần có: loại BĐS + khu vực + tiện ích + pháp lý + ngân sách.\n4. Phiên bản có/không có giá và khuyến nghị dùng bản nào khi nào.\n5. Checklist 6 điều phải kiểm tra trước khi đăng để tránh bị gỡ tin (giá đúng, ảnh thật, không cam kết sai, thông tin pháp lý trung thực).\n\nGiọng văn: rõ ràng, đời thường, không hoa mỹ quá mức.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "content",
+   "seo",
+   "listing",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-9",
+  "title": "Rà soát hợp đồng đặt cọc: điều khoản rủi ro",
+  "content": "Bạn là luật sư tư vấn giao dịch nhà đất (ở mức tư vấn tham khảo, không thay thế công chứng viên). Tôi sẽ dán hợp đồng đặt cọc mua BĐS.\n\nHãy:\n1. Tóm tắt 8 điều khoản quan trọng nhất bằng ngôn ngữ dễ hiểu.\n2. Đánh dấu từng điều khoản theo 3 mức: an toàn / cần sửa / rủi ro cao — kèm lý do và câu sửa đề xuất.\n3. Kiểm tra 6 nhóm nội dung bắt buộc: thông tin các bên, mô tả tài sản và pháp lý, giá và phương thức thanh toán, thời hạn công chứng, xử lý khi một bên vi phạm, hoàn cọc/ phạt cọc.\n4. Nêu 7 điều khoản bất lợi cho người mua thường bị chèn vào và cách đàm phán bỏ/sửa.\n5. Checklist giấy tờ phải có trước khi ký cọc và 3 việc phải làm ngay sau khi chuyển tiền cọc (biên nhận, ảnh chụp chuyển khoản trùng tên, xác nhận bằng tin nhắn).\n\nKết luận bằng 5 câu hỏi nên hỏi luật sư/công chứng viên trước khi ký.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "contract",
+   "legal",
+   "risk",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-10",
+  "title": "Phân tích rủi ro dự án BĐS chưa có sổ",
+  "content": "Bạn là cố vấn đầu tư thận trọng. Tôi đang cân nhắc mua [LOẠI SẢN PHẨM: đất nền dự án / căn hộ hình thành trong tương lai / nhà giấy tay] tại [DỰ ÁN, ĐỊA ĐIỂM], giá [GIÁ], tiến độ thanh toán [MÔ TẢ], chủ đầu tư [TÊN].\n\nHãy phân tích:\n1. Bảng rủi ro 10 nhóm: pháp lý dự án (chấp thuận chủ trương, quy hoạch 1/500, giấy phép xây dựng), năng lực chủ đầu tư, bảo lãnh ngân hàng, tiến độ, hợp đồng mua bán, điều kiện cấp sổ, hạ tầng, thanh khoản, lãi vay, pháp lý cá nhân người mua. Mỗi dòng: dấu hiệu nhận biết | mức độ | cách kiểm chứng.\n2. 10 giấy tờ phải yêu cầu chủ đầu tư/sàn giao dịch cung cấp trước khi đặt cọc.\n3. Ngưỡng giá và điều kiện thanh toán mà tôi nên từ chối (dấu hiệu \"huy động vốn trá hình\").\n4. So sánh nhanh: mua chưa sổ (giá thấp hơn bao nhiêu %) so với đã có sổ cùng khu — mức chiết khấu này có bù được rủi ro không.\n5. Kết luận dạng \"nên/không nên/cân nhắc\" với 3 điều kiện tiên quyết.\n\nRàng buộc: không kết luận chắc chắn khi thiếu thông tin; liệt kê rõ thông tin còn thiếu.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "risk",
+   "legal",
+   "investment",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-11",
+  "title": "Email/tin nhắn follow-up sau khi khách xem nhà",
+  "content": "Bạn là môi giới BĐS chuyên nghiệp. Viết chuỗi 4 tin nhắn follow-up sau buổi xem nhà.\n\nBối cảnh: khách [TÊN], xem [BĐS] ngày [NGÀY], phản hồi ban đầu [ƯU ĐIỂM KHÁCH KHEN / LO NGẠI KHÁCH NÊU], ngân sách [NGÂN SÁCH], mục tiêu [Ở/ĐẦU TƯ].\n\nYêu cầu:\n1. Tin 1 (trong 2 giờ sau xem): cảm ơn + tóm tắt đúng 2 điểm khách quan tâm + 1 tài liệu giá trị (bảng giá khu vực, pháp lý, so sánh 2 căn tương tự).\n2. Tin 2 (ngày hôm sau): xử lý đúng nỗi lo khách đã nêu bằng dữ kiện, không thuyết phục chung chung.\n3. Tin 3 (ngày 3–4): đề xuất 2 lựa chọn thay thế (kèm lý do phù hợp tiêu chí) và 1 khung giờ đi xem.\n4. Tin 4 (ngày 7): tin nhắn \"đóng vòng\" lịch sự, để cửa mở, không gây áp lực.\n5. Với mỗi tin: độ dài khuyến nghị, giọng văn, CTA, và 2 biến thể (khách nhiệt tình / khách im lặng).\n\nCuối cùng thêm bảng theo dõi: ngày | kênh | nội dung | phản hồi | bước tiếp theo.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "sales",
+   "follow-up",
+   "crm",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-12",
+  "title": "Kế hoạch marketing 30 ngày cho môi giới cá nhân",
+  "content": "Bạn là marketing lead trong ngành BĐS. Lập kế hoạch marketing 30 ngày cho một môi giới cá nhân.\n\nThông tin: khu vực hoạt động [QUẬN/THÀNH], sản phẩm chính [LOẠI BĐS + KHOẢNG GIÁ], kênh đang có [FACEBOOK/TIKTOK/ZALO/YOUTUBE], thời gian mỗi ngày [SỐ GIỜ], ngân sách quảng cáo [NGÂN SÁCH].\n\nĐầu ra:\n1. Mục tiêu 30 ngày theo số: số tin đăng, số video, số lead, số buổi xem nhà, số giao dịch kỳ vọng (thực tế, không hô hào).\n2. Lịch nội dung 4 tuần dạng bảng: ngày | kênh | định dạng | chủ đề | CTA | thời gian thực hiện.\n3. 6 chủ đề nội dung hiệu quả cho ngành: giá thị trường, pháp lý, lỗi khi mua, tour nhà, khách hàng kể, so sánh khu vực — mỗi chủ đề 2 ý tưởng cụ thể.\n4. Cách tối ưu hồ sơ và điểm tiếp xúc: ảnh đại diện, trang cá nhân, tin nhắn chào, kịch bản trả lời bình luận.\n5. Chỉ số đo hàng tuần và ngưỡng phải thay đổi cách làm (ví dụ: nếu lead < X thì đổi nội dung/ngân sách).\n6. Phân bổ ngân sách quảng cáo theo tuần và lý do.\n\nCam kết thực tế, tránh mục tiêu phi thực tế.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "marketing",
+   "plan",
+   "social",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-13",
+  "title": "So sánh các phương án vay mua nhà",
+  "content": "Bạn là chuyên viên tín dụng BĐS. Tôi cần vay [SỐ TIỀN] để mua nhà, thu nhập [THU NHẬP]/tháng, đang có khoản vay khác [CÓ/KHÔNG], thời gian vay mong muốn [SỐ NĂM].\n\nHãy:\n1. Giải thích 3 cách tính lãi phổ biến: dư nợ giảm dần, lãi cố định kỳ đầu rồi thả nổi, lãi trả đều — với ví dụ số tiền cụ thể của tôi ở mỗi cách.\n2. Bảng so sánh tổng lãi phải trả và số tiền trả hàng tháng ở kịch bản lãi suất: ưu đãi năm 1, +2% năm 2–3, +3% từ năm 4 — tính cả 5 và 10 năm.\n3. Quy tắc an toàn: số tiền trả nợ hàng tháng không vượt quá bao nhiêu % thu nhập, dự phòng bao nhiêu tháng trả nợ.\n4. Checklist 8 câu hỏi phải hỏi ngân hàng trước khi vay (phí trả trước hạn, bảo hiểm bắt buộc kèm, phí phạt, điều kiện thả nổi, phí công chứng, giải ngân theo tiến độ...).\n5. So sánh: nên vay dài hay ngắn, nên chọn cố định hay thả nổi trong bối cảnh lãi suất hiện tại — kèm điều kiện áp dụng.\n\nTrình bày bảng, số liệu VNĐ, nêu rõ đây là tính toán tham khảo.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "mortgage",
+   "finance",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-14",
+  "title": "Xử lý từ chối \"giá cao\" bằng lợi ích và bằng chứng",
+  "content": "Bạn là chuyên gia đào tạo sales BĐS. Khách nói: \"Giá này cao quá, khu vực khác rẻ hơn\". Hãy giúp tôi xử lý.\n\nBối cảnh: sản phẩm [MÔ TẢ BĐS + GIÁ], khách [ĐẶC ĐIỂM KHÁCH], đã so sánh với [BĐS KHÁC + GIÁ].\n\nYêu cầu:\n1. Phân tích 5 lý do thật sự đằng sau câu \"giá cao\" (thiếu thông tin, so sánh sai chuẩn, vấn đề ngân sách, cần thời gian, đang thử đàm phán) và cách nhận biết từng lý do trong 1 câu hỏi.\n2. Bộ 6 câu hỏi để làm rõ chuẩn so sánh của khách (diện tích, pháp lý, hạ tầng, thời điểm, mức hoàn thiện, phí sử dụng).\n3. 3 khung trả lời mẫu theo hướng: quy đổi giá trị (giá/m², chi phí sửa thêm, tiện ích), chi phí cơ hội (nếu chờ thêm), và bằng chứng thị trường (giao dịch thực tế trong khu).\n4. Cách trình bày bảng so sánh 1 trang để khách tự thấy chênh lệch giá là hợp lý.\n5. Giới hạn: khi nào nên nói thật \"sản phẩm này không phù hợp ngân sách của anh/chị\" và đề xuất phương án khác — vì sao điều này lại tăng tỷ lệ chốt về sau.\n\nGiọng điệu: tư vấn, không tranh cãi, không hạ giá sản phẩm.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "sales",
+   "objection-handling",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-15",
+  "title": "Báo cáo thị trường BĐS khu vực hàng tháng (template)",
+  "content": "Bạn là chuyên viên nghiên cứu thị trường BĐS. Lập báo cáo thị trường tháng [THÁNG/NĂM] cho khu vực [QUẬN/HUYỆN, THÀNH PHỐ], tập trung phân khúc [CĂN HỘ/ NHÀ PHỐ/ ĐẤT NỀN] với khoảng giá [KHOẢNG GIÁ].\n\nCấu trúc báo cáo:\n1. Tóm tắt 5 điểm chính (dạng bullet, mỗi điểm 1 câu có số liệu).\n2. Bảng nguồn cung – giao dịch – giá: số tin đăng, số giao dịch ước tính, giá/m² trung bình, thay đổi so với tháng trước (%) theo từng phân khúc.\n3. Phân tích cung – cầu: loại sản phẩm nào đang khan, loại nào tồn, thời gian bán trung bình.\n4. Các yếu tố tác động: hạ tầng mới, chính sách tín dụng, quy hoạch, lãi suất — mức độ ảnh hưởng.\n5. Dự báo 3 tháng tới với 2 kịch bản (lạc quan / thận trọng) và điều kiện khiến dự báo sai.\n6. Hàm ý hành động cho 3 nhóm: người mua ở, nhà đầu tư, môi giới.\n\nGhi chú: chỉ dùng số liệu tôi cung cấp hoặc để trống kèm hướng dẫn cách thu thập; tuyệt đối không bịa số liệu thị trường.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "market-research",
+   "report",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ },
+ {
+  "id": "bds-vi-16",
+  "title": "Checklist bàn giao nhà mới từ chủ đầu tư",
+  "content": "Bạn là chuyên gia kiểm định nhà ở. Lập checklist bàn giao căn hộ/nhà mới từ chủ đầu tư cho căn [DIỆN TÍCH] m², [SỐ PHÒNG NGỦ], tại [DỰ ÁN].\n\nYêu cầu:\n1. Checklist theo 8 khu vực: cửa và khoá, tường – trần – sàn, điện (ổ cắm, aptomat, tiếp địa), nước (áp lực, thoát sàn, rò rỉ), thiết bị vệ sinh, bếp, điều hoà – thông gió, ban công/lô gia. Mỗi mục ghi: cách kiểm tra tại chỗ | tiêu chí đạt | lỗi thường gặp.\n2. Trình tự kiểm tra tối ưu trong 90 phút và dụng cụ cần mang (bút thử điện, máy đo ẩm, thước, giấy dán đánh dấu).\n3. Cách ghi nhận lỗi để chủ đầu tư phải sửa: ảnh có ngày giờ, biên bản có đánh số, yêu cầu thời hạn khắc phục.\n4. Mẫu biên bản bàn giao có điều khoản \"giữ lại khoản thanh toán đến khi khắc phục xong\".\n5. Danh mục giấy tờ cần nhận: hợp đồng, biên bản bàn giao, sổ bảo hành, hướng dẫn sử dụng thiết bị, bản vẽ hoàn công, giấy chứng nhận.\n\nNhấn mạnh: không ký bàn giao khi chưa kiểm tra hệ thống nước và điện.",
+  "category": "Bất động sản",
+  "tags": [
+   "real-estate",
+   "handover",
+   "inspection",
+   "checklist",
+   "vietnamese",
+   "text-prompt"
+  ],
+  "platform": "ChatGPT",
+  "platforms": [
+   "ChatGPT",
+   "Gemini",
+   "Claude"
+  ]
+ }
+]
